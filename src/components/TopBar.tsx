@@ -30,53 +30,37 @@ const LogoWrapper = styled.div`
 
 const MENU = [
    {
-    'title': 'Trading',
+    'title': 'TRADE',
     'link': '/',
   },
   {
-    'title': 'Swap',
-    'link': 'https://raydium.io/swap/',
+    'title': 'SWAP',
+    'link': 'https://app.keramos.tech/swap/',
   },
   {
-    'title': 'Liquidity',
-    'link': 'https://raydium.io/liquidity/add/',
+    'title': 'FARMS',
+    'link': 'https://app.keramos.tech/farms/',
   },
   {
-    'title': 'Pools',
-    'link': 'https://raydium.io/pools/',
+    'title': 'POOLS',
+    'link': 'https://app.keramos.tech/pools/',
   },
   {
-    'title': 'Farms',
-    'link': 'https://raydium.io/farms/',
+    'title': 'LIQUIDITY',
+    'link': 'https://app.keramos.tech/liquidity/add/',
   },
   {
-    'title': 'Staking',
-    'link': 'https://raydium.io/staking/',
-  },
-  {
-    'title': 'AcceleRaytor',
-    'link': 'https://v1.raydium.io/acceleRaytor/',
-  },
-  {
-    'title': 'DropZone',
-    'link': 'https://dropzone.raydium.io/',
-  },
-  {
-    'title': 'NFTs',
+    'title': 'DOCS',
     'child': [
       {
-        'title': 'Browse NFTs',
-        'link': 'https://nft.raydium.io/marketplace'
+        'title': 'READ DOCS',
+        'link': 'https://keramos.gitbook.io/keramos-docs/'
       },
       {
-        'title': 'Explore Collections',
-        'link': 'https://nft.raydium.io/collections'
+        'title': 'LITEPAPER',
+        'link': 'https://www.keramos.tech/_files/ugd/f015f3_ce227854ea8e4072b7b8bb9b58b4fa72.pdf?index=true'
       },
     ]
-  },
-  {
-    'title': 'Migrate',
-    'link': 'https://raydium.io/migrate/',
   },
   
 ]

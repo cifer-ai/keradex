@@ -30,15 +30,15 @@ html.theme-dark ._tv-dialog {
   transition: color 0.35s ease;
 }
 html.theme-dark ._tv-dialog__link {
-  color: #1976d2;
+  color: #08C4C4;
 }
 ._tv-dialog__link:visited {
   color: #2196f3;
   fill: #2196f3;
 }
 html.theme-dark ._tv-dialog__link:visited {
-  fill: #1976d2;
-  color: #1976d2;
+  fill: #08C4C4;
+  color: #08C4C4;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   ._tv-dialog__link:hover {
@@ -91,7 +91,7 @@ html.theme-dark ._tv-dialog__highlightedText {
 }
 html.theme-dark ._tv-dialog--alert-email a,
 html.theme-dark ._tv-dialog--open-a-chart a {
-  color: #1976d2;
+  color: #08C4C4;
 }
 ._tv-dialog--alert-email a:visited,
 ._tv-dialog--open-a-chart a:visited {
@@ -100,8 +100,8 @@ html.theme-dark ._tv-dialog--open-a-chart a {
 }
 html.theme-dark ._tv-dialog--alert-email a:visited,
 html.theme-dark ._tv-dialog--open-a-chart a:visited {
-  fill: #1976d2;
-  color: #1976d2;
+  fill: #08C4C4;
+  color: #08C4C4;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   ._tv-dialog--alert-email a:hover,
@@ -212,7 +212,7 @@ html.theme-dark ._tv-dialog-content {
 html.theme-dark
   ._tv-dialog-content
   a:not([class*='button']):not([class*='btn']):not([class*='tabs']):not([class*='tab']):not([class*='sbSelector']):not([class*='filter']):not(a[href='#yes']):not(a[href='#no']) {
-  color: #1976d2;
+  color: #08C4C4;
 }
 ._tv-dialog-content
   a:not([class*='button']):not([class*='btn']):not([class*='tabs']):not([class*='tab']):not([class*='sbSelector']):not([class*='filter']):not(a[href='#yes']):not(a[href='#no']):visited {
@@ -222,8 +222,8 @@ html.theme-dark
 html.theme-dark
   ._tv-dialog-content
   a:not([class*='button']):not([class*='btn']):not([class*='tabs']):not([class*='tab']):not([class*='sbSelector']):not([class*='filter']):not(a[href='#yes']):not(a[href='#no']):visited {
-  fill: #1976d2;
-  color: #1976d2;
+  fill: #08C4C4;
+  color: #08C4C4;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   ._tv-dialog-content
@@ -478,7 +478,7 @@ html.theme-dark
   input:not(.tv-control-input)._tv-dialog-content-textactive,
 html.theme-dark ._tv-dialog-text-input:focus {
   color: #9db2bd;
-  border-color: #1976d2 !important;
+  border-color: #08C4C4 !important;
   background: #1e222d;
 }
 ._tv-dialog-content textarea {
@@ -493,7 +493,7 @@ html.theme-dark ._tv-dialog-content textarea {
   border-color: #2196f3 !important;
 }
 html.theme-dark ._tv-dialog-content textarea._tv-dialog-content-textareaactive {
-  border-color: #1976d2 !important;
+  border-color: #08C4C4 !important;
 }
 ._tv-dialog-content .caption {
   font-size: 11px;
@@ -628,7 +628,7 @@ html.theme-dark ._tv-dialog-content label {
 }
 html.theme-dark ._tv-dialog-error a,
 html.theme-dark ._tv-dialog-message a {
-  color: #1976d2;
+  color: #08C4C4;
 }
 ._tv-dialog-error a:visited,
 ._tv-dialog-message a:visited {
@@ -637,8 +637,8 @@ html.theme-dark ._tv-dialog-message a {
 }
 html.theme-dark ._tv-dialog-error a:visited,
 html.theme-dark ._tv-dialog-message a:visited {
-  fill: #1976d2;
-  color: #1976d2;
+  fill: #08C4C4;
+  color: #08C4C4;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   ._tv-dialog-error a:hover,
@@ -743,7 +743,7 @@ html.theme-dark
   .change-interval-input {
   background-color: #2f3241;
   color: #c5cbce;
-  border: 1px solid #1976d2;
+  border: 1px solid #08C4C4;
 }
 ._tv-dialog.change-interval-dialog
   ._tv-dialog-content

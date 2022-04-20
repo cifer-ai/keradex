@@ -95,11 +95,11 @@ html.theme-dark .tv-tabs__tab {
 }
 html.theme-dark .tv-tabs__tab.i-active,
 html.theme-dark .tv-tabs__tab:active {
-  color: #1976d2;
+  color: #08C4C4;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   html.theme-dark .tv-tabs__tab:hover {
-    color: #1976d2;
+    color: #08C4C4;
   }
 }
 .tv-tabs__tab.i-disabled,
@@ -157,7 +157,7 @@ html.theme-dark .tv-tabs__tab[disabled] {
 }
 html.theme-dark .tv-tabs__slider,
 html.theme-dark .tv-tabs__tab.i-active:after {
-  background-color: #1976d2;
+  background-color: #08C4C4;
 }
 .tv-tabs--compact,
 .tv-tabs--compact .tv-tabs__scroll-box,
@@ -532,8 +532,8 @@ html.theme-dark .tv-tabs--searchbar_sub .tv-tabs__right-arrow {
 html.theme-dark .tv-tabs--searchbar-bright .tv-tabs__left-arrow {
   background: linear-gradient(
     90deg,
-    #1976d2 0,
-    #1976d2 15%,
+    #08C4C4 0,
+    #08C4C4 15%,
     rgba(25, 118, 210, 0)
   );
 }
@@ -549,7 +549,7 @@ html.theme-dark .tv-tabs--searchbar-bright .tv-tabs__right-arrow {
   background: linear-gradient(
     90deg,
     rgba(25, 118, 210, 0) 0,
-    #1976d2 85%,
-    #1976d2
+    #08C4C4 85%,
+    #08C4C4
   );
 }

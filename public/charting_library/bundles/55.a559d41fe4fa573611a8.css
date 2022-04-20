@@ -234,15 +234,15 @@ html.theme-dark .tv-button--default_ghost:active {
 }
 html.theme-dark .tv-button--primary,
 html.theme-dark .tv-button--primary_ghost {
-  background-color: #1976d2;
-  border-color: #1976d2;
+  background-color: #08C4C4;
+  border-color: #08C4C4;
   color: #fff;
 }
 .tv-button--primary_ghost {
   color: #2196f3;
 }
 html.theme-dark .tv-button--primary_ghost {
-  color: #1976d2;
+  color: #08C4C4;
 }
 .tv-button--primary_ghost.i-checked {
   color: #fff;
@@ -250,8 +250,8 @@ html.theme-dark .tv-button--primary_ghost {
   background-color: #2196f3;
 }
 html.theme-dark .tv-button--primary_ghost.i-checked {
-  background-color: #1976d2;
-  border-color: #1976d2;
+  background-color: #08C4C4;
+  border-color: #08C4C4;
   color: #fff;
 }
 .tv-button--primary.i-active,
@@ -650,15 +650,15 @@ html.theme-dark .tv-button--danger_ghost.i-hover .tv-button__loader-item {
   transition: color 0.35s ease;
 }
 html.theme-dark .tv-button--link {
-  color: #1976d2;
+  color: #08C4C4;
 }
 .tv-button--link:visited {
   color: #2196f3;
   fill: #2196f3;
 }
 html.theme-dark .tv-button--link:visited {
-  fill: #1976d2;
-  color: #1976d2;
+  fill: #08C4C4;
+  color: #08C4C4;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .tv-button--link:hover {
@@ -995,14 +995,14 @@ html.theme-dark .tv-button--state.tv-button--danger {
 }
 html.theme-dark .tv-button--state.tv-button--primary {
   background-color: transparent;
-  color: #1976d2;
+  color: #08C4C4;
 }
 .tv-button--state.tv-button--primary.i-checked {
   color: #fff;
   background-color: #2196f3;
 }
 html.theme-dark .tv-button--state.tv-button--primary.i-checked {
-  background-color: #1976d2;
+  background-color: #08C4C4;
   color: #fff;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
@@ -1339,7 +1339,7 @@ html.theme-dark .tv-control-checkbox:active .tv-control-checkbox__box:after,
 html.theme-dark
   .tv-control-checkbox__input:focus
   + .tv-control-checkbox__box:after {
-  border-color: #1976d2;
+  border-color: #08C4C4;
 }
 .tv-control-checkbox__input:checked + .tv-control-checkbox__box {
   background-color: #2196f3;
@@ -1347,7 +1347,7 @@ html.theme-dark
 html.theme-dark
   .tv-control-checkbox__input:checked
   + .tv-control-checkbox__box {
-  background-color: #1976d2;
+  background-color: #08C4C4;
 }
 .tv-control-checkbox__input:checked + .tv-control-checkbox__box,
 .tv-control-checkbox__input:checked + .tv-control-checkbox__box:after,
@@ -1364,7 +1364,7 @@ html.theme-dark
 html.theme-dark
   .tv-control-checkbox__input:checked
   + .tv-control-checkbox__box:after {
-  border-color: #1976d2;
+  border-color: #08C4C4;
 }
 .tv-control-checkbox__input:checked + .tv-control-checkbox__box svg {
   stroke: #fff;

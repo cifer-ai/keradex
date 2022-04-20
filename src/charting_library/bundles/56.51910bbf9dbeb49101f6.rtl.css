@@ -51,7 +51,7 @@ html.theme-dark .symbolInput-1r0O05gG {
   border-color: #2196f3;
 }
 html.theme-dark .symbolInput-1r0O05gG.isFocused-3ps_uNFG {
-  border-color: #1976d2;
+  border-color: #08C4C4;
 }
 .symbolInput-1r0O05gG.readonly-3HE9PFCu {
   border-color: #d1d4dc;
@@ -275,7 +275,7 @@ html.theme-dark
   .wrapper-1Law0ttl
   .input-303BGOua:focus
   + .box-3rMRS-wv:before {
-  border-color: #1976d2;
+  border-color: #08C4C4;
 }
 .radio-1cZENBYk
   .wrapper-1Law0ttl
@@ -299,7 +299,7 @@ html.theme-dark
   .input-303BGOua:checked
   + .box-3rMRS-wv:before {
   background-color: #d1d4dc;
-  border-color: #1976d2;
+  border-color: #08C4C4;
 }
 .radio-1cZENBYk
   .wrapper-1Law0ttl

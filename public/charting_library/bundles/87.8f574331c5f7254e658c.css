@@ -699,8 +699,8 @@ html.theme-dark .ui-datepicker td span.ui-state-hover {
 }
 html.theme-dark .ui-datepicker td.ui-datepicker-current-day a,
 html.theme-dark .ui-datepicker td.ui-datepicker-current-day span {
-  color: #1976d2;
-  border-color: #1976d2;
+  color: #08C4C4;
+  border-color: #08C4C4;
 }
 .ui-datepicker .ui-datepicker-buttonpane {
   background-image: none;

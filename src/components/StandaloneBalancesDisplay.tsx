@@ -215,15 +215,15 @@ export default function StandaloneBalancesDisplay() {
         onClose={() => setBaseOrQuote('')}
       />
       <div style={{ textAlign: 'center', paddingTop: 32, display: window.innerWidth>540 ? 'block':'none' }}>
-        <img src={logo1} alt="" />
-        <div style={{ paddingTop: 20, fontSize: 16, color: '#F1F1F2' }}>
+        <img src={logo1} alt="" style={{ width: 64, opacity: 0.2 }}/>
+        <div style={{ paddingTop: 20, fontSize: 16, color: '##E3E4FF' }}>
           First time trading
         </div>
-        <div style={{ fontSize: 16, color: '#F1F1F2' }}>
-          on Raydium?
+        <div style={{ fontSize: 16, color: '##E3E4FF' }}>
+          on KERAMOS?
         </div>
         <a
-          href={'https://raydium.gitbook.io/raydium/'}
+          href={'https://keramos.gitbook.io/keramos-docs/'}
           target="_blank"
           rel="noopener noreferrer"
           style={{ color : 'rgb(173,175,184)',}}

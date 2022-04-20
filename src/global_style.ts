@@ -13,7 +13,7 @@ input[type=number]:focus::-webkit-inner-spin-button {
 }
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 8px;
 }
 /* Track */
 ::-webkit-scrollbar-track {

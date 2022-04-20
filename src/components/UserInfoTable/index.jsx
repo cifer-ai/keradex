@@ -30,7 +30,7 @@ export default function Index({ smallScreen }) {
               fontWeight: 600,
               color:
                 activeKeyStr === 'orders'
-                  ? '#F1F1F2'
+                  ? '##E3E4FF'
                   : 'rgba(241, 241, 242, 0.5)',
               padding: '12px 0 12px',
             }}
@@ -51,7 +51,7 @@ export default function Index({ smallScreen }) {
               fontWeight: 600,
               color:
                 activeKeyStr === 'fills'
-                  ? '#F1F1F2'
+                  ? '##E3E4FF'
                   : 'rgba(241, 241, 242, 0.5)',
               padding: '12px 0 12px',
             }}
@@ -73,7 +73,7 @@ export default function Index({ smallScreen }) {
               fontWeight: 600,
               color:
                 activeKeyStr === 'balances'
-                  ? '#F1F1F2'
+                  ? '##E3E4FF'
                   : 'rgba(241, 241, 242, 0.5)',
               padding: '12px 0 12px',
             }}
@@ -96,7 +96,7 @@ export default function Index({ smallScreen }) {
                 fontWeight: 600,
                 color:
                   activeKeyStr === 'fees'
-                    ? '#F1F1F2'
+                    ? '##E3E4FF'
                     : 'rgba(241, 241, 242, 0.5)',
                 padding: '12px 0 12px',
               }}
@@ -142,7 +142,7 @@ export default function Index({ smallScreen }) {
               fontWeight: 600,
               color:
                 activeKeyStr === 'orders'
-                  ? '#F1F1F2'
+                  ? '##E3E4FF'
                   : 'rgba(241, 241, 242, 0.5)',
               padding: '12px 0 12px',
             }}
@@ -164,7 +164,7 @@ export default function Index({ smallScreen }) {
               fontWeight: 600,
               color:
                 activeKeyStr === 'fills'
-                  ? '#F1F1F2'
+                  ? '##E3E4FF'
                   : 'rgba(241, 241, 242, 0.5)',
               padding: '12px 0 12px',
             }}
@@ -187,7 +187,7 @@ export default function Index({ smallScreen }) {
               fontWeight: 600,
               color:
                 activeKeyStr === 'balances'
-                  ? '#F1F1F2'
+                  ? '##E3E4FF'
                   : 'rgba(241, 241, 242, 0.5)',
               padding: '12px 0 12px',
             }}
@@ -211,7 +211,7 @@ export default function Index({ smallScreen }) {
                 fontWeight: 600,
                 color:
                   activeKeyStr === 'fees'
-                    ? '#F1F1F2'
+                    ? '##E3E4FF'
                     : 'rgba(241, 241, 242, 0.5)',
                 padding: '12px 0 12px',
               }}

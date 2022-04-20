@@ -107,13 +107,13 @@ html.theme-sa .item-3cgIlGYO.isActive-2M6dwA7- {
   }
 }
 html.theme-dark .item-3cgIlGYO.isActive-2M6dwA7- {
-  color: #1976d2;
-  color: var(--tv-color-toolbar-button-text-active, #1976d2);
+  color: #08C4C4;
+  color: var(--tv-color-toolbar-button-text-active, #08C4C4);
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   html.theme-dark .item-3cgIlGYO.isActive-2M6dwA7-:hover {
-    color: #1976d2;
-    color: var(--tv-color-toolbar-button-text-active, #1976d2);
+    color: #08C4C4;
+    color: var(--tv-color-toolbar-button-text-active, #08C4C4);
   }
 }
 .item-3cgIlGYO.isFirst-2kfAV5tf {
@@ -143,8 +143,8 @@ html.theme-sa .slider-1ealLtjI .inner-3lmAEIjy {
   background-color: var(--tv-color-toolbar-button-text-active, #ff7200);
 }
 html.theme-dark .slider-1ealLtjI .inner-3lmAEIjy {
-  background-color: #1976d2;
-  background-color: var(--tv-color-toolbar-button-text-active, #1976d2);
+  background-color: #08C4C4;
+  background-color: var(--tv-color-toolbar-button-text-active, #08C4C4);
 }
 .sliderRow-Tv1W7hM5 {
   height: 100%;

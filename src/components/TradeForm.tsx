@@ -316,7 +316,7 @@ export default function TradeForm({
               fontSize: 14,
               fontStyle: 'normal',
               fontWeight: 600,
-              color: side === 'buy' ? '#F1F1F2' : 'rgba(241, 241, 242, 0.5)',
+              color: side === 'buy' ? '##E3E4FF' : 'rgba(241, 241, 242, 0.5)',
               padding: '12px 0 0 0'
             }}
           >
@@ -335,7 +335,7 @@ export default function TradeForm({
               fontSize: 14,
               fontStyle: 'normal',
               fontWeight: 600,
-              color: side === 'sell' ? '#F1F1F2' : 'rgba(241, 241, 242, 0.5)',
+              color: side === 'sell' ? '##E3E4FF' : 'rgba(241, 241, 242, 0.5)',
               padding: '12px 0 0 0'
             }}
           >

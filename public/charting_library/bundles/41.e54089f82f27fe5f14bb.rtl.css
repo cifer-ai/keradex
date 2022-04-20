@@ -192,8 +192,8 @@ html.theme-dark .textInput-3WRWEmm7[disabled]::placeholder {
   transition-duration: 0.06s;
 }
 html.theme-dark .textInput-3WRWEmm7:focus {
-  box-shadow: inset 0 0 0 1px #1976d2;
-  border-color: #1976d2 !important;
+  box-shadow: inset 0 0 0 1px #08C4C4;
+  border-color: #08C4C4 !important;
 }
 .textInput-3WRWEmm7.textInputLeftDirection-mlAXPh8V {
   text-align: left;

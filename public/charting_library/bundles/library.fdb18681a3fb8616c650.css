@@ -332,15 +332,15 @@ html.theme-dark .tv-text ul .tv-text--highlight-important {
   transition: color 0.35s ease;
 }
 html.theme-dark .tv-text a:not(.tv-badge):not(.tv-button) {
-  color: #1976d2;
+  color: #08C4C4;
 }
 .tv-text a:not(.tv-badge):not(.tv-button):visited {
   color: #2196f3;
   fill: #2196f3;
 }
 html.theme-dark .tv-text a:not(.tv-badge):not(.tv-button):visited {
-  fill: #1976d2;
-  color: #1976d2;
+  fill: #08C4C4;
+  color: #08C4C4;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .tv-text a:not(.tv-badge):not(.tv-button):hover {
@@ -751,7 +751,7 @@ html.theme-dark .chart-page .chart-container-border {
   border-color: #2196f3;
 }
 html.theme-dark .chart-page .chart-container.multiple.active:after {
-  border-color: #1976d2;
+  border-color: #08C4C4;
 }
 .chart-page .chart-container.inactive .back-to-present {
   display: none;
@@ -1261,15 +1261,15 @@ html.theme-dark .tv-button--default_ghost:active {
 }
 html.theme-dark .tv-button--primary,
 html.theme-dark .tv-button--primary_ghost {
-  background-color: #1976d2;
-  border-color: #1976d2;
+  background-color: #08C4C4;
+  border-color: #08C4C4;
   color: #fff;
 }
 .tv-button--primary_ghost {
   color: #2196f3;
 }
 html.theme-dark .tv-button--primary_ghost {
-  color: #1976d2;
+  color: #08C4C4;
 }
 .tv-button--primary_ghost.i-checked {
   color: #fff;
@@ -1277,8 +1277,8 @@ html.theme-dark .tv-button--primary_ghost {
   background-color: #2196f3;
 }
 html.theme-dark .tv-button--primary_ghost.i-checked {
-  background-color: #1976d2;
-  border-color: #1976d2;
+  background-color: #08C4C4;
+  border-color: #08C4C4;
   color: #fff;
 }
 .tv-button--primary.i-active,
@@ -1677,15 +1677,15 @@ html.theme-dark .tv-button--danger_ghost.i-hover .tv-button__loader-item {
   transition: color 0.35s ease;
 }
 html.theme-dark .tv-button--link {
-  color: #1976d2;
+  color: #08C4C4;
 }
 .tv-button--link:visited {
   color: #2196f3;
   fill: #2196f3;
 }
 html.theme-dark .tv-button--link:visited {
-  fill: #1976d2;
-  color: #1976d2;
+  fill: #08C4C4;
+  color: #08C4C4;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .tv-button--link:hover {
@@ -2022,14 +2022,14 @@ html.theme-dark .tv-button--state.tv-button--danger {
 }
 html.theme-dark .tv-button--state.tv-button--primary {
   background-color: transparent;
-  color: #1976d2;
+  color: #08C4C4;
 }
 .tv-button--state.tv-button--primary.i-checked {
   color: #fff;
   background-color: #2196f3;
 }
 html.theme-dark .tv-button--state.tv-button--primary.i-checked {
-  background-color: #1976d2;
+  background-color: #08C4C4;
   color: #fff;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
@@ -2969,15 +2969,15 @@ html.theme-dark .container-2BvS3Fpg .inner-3YzQuyJx {
   transition: color 0.35s ease;
 }
 html.theme-dark .tv-rename-chart-dialog__label a {
-  color: #1976d2;
+  color: #08C4C4;
 }
 .tv-rename-chart-dialog__label a:visited {
   color: #2196f3;
   fill: #2196f3;
 }
 html.theme-dark .tv-rename-chart-dialog__label a:visited {
-  fill: #1976d2;
-  color: #1976d2;
+  fill: #08C4C4;
+  color: #08C4C4;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .tv-rename-chart-dialog__label a:hover {

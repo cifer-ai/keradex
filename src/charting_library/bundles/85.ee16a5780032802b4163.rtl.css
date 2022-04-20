@@ -299,15 +299,15 @@ html.theme-dark .symbol-edit-notification {
   transition: color 0.35s ease;
 }
 html.theme-dark .symbol-edit-notification a {
-  color: #1976d2;
+  color: #08C4C4;
 }
 .symbol-edit-notification a:visited {
   color: #2196f3;
   fill: #2196f3;
 }
 html.theme-dark .symbol-edit-notification a:visited {
-  fill: #1976d2;
-  color: #1976d2;
+  fill: #08C4C4;
+  color: #08C4C4;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .symbol-edit-notification a:hover {

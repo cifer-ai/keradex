@@ -109,7 +109,7 @@ html.theme-dark .tv-select-container:active {
   color: #fff !important;
 }
 html.theme-dark ._tv-button.ok {
-  background: #1976d2;
+  background: #08C4C4;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   ._tv-button.ok:hover {

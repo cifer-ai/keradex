@@ -123,7 +123,7 @@
   background-color: #2a2e39;
 }
 .control-bar__btn--dark.control-bar__btn--minimize {
-  background-color: #1976d2;
+  background-color: #08C4C4;
   color: #bbdefb;
 }
 .control-bar__btn--dark.control-bar__btn--minimize:active {
@@ -1255,7 +1255,7 @@
   .button-22Ex8G2W:not(:first-child),
 .chart-widget--themed-dark .selected-2qw9PFUJ .buttonsWrapper-3eBZpnXm,
 .chart-widget--themed-dark .selected-2qw9PFUJ .titleWrapper-1Zs2rjQ6 {
-  border-color: #1976d2;
+  border-color: #08C4C4;
 }
 .chart-widget--themed-dark .toggler-_SUZ7r_5 {
   border-color: #363a45;
@@ -1432,7 +1432,7 @@ html.theme-dark .invalidSymbol-2tnvnmzm {
   background-color: #2196f3;
 }
 html.theme-dark .replayMode-2O_B03jx {
-  background-color: #1976d2;
+  background-color: #08C4C4;
   color: #e3f2fd;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
@@ -1643,8 +1643,8 @@ html.theme-dark .dataProblemLow-iRGvvWWe:after {
   color: #25262B;
 }
 .chart-widget--themed-dark .minimize-UL6CPYKt {
-  background-color: #1976d2 !important;
-  border-color: #1976d2 !important;
+  background-color: #08C4C4 !important;
+  border-color: #08C4C4 !important;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .chart-widget--themed-dark .button-1T73noHe:hover .buttonIcon-1vsadlK4 {

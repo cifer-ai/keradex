@@ -52,8 +52,8 @@ input:focus + .tv-ticker .tv-ticker__btn {
   fill: #2196f3;
 }
 html.theme-dark input:focus + .tv-ticker .tv-ticker__btn {
-  fill: #1976d2;
-  border-color: #1976d2;
+  fill: #08C4C4;
+  border-color: #08C4C4;
 }
 input:disabled + .tv-ticker {
   display: none;

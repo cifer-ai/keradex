@@ -865,15 +865,15 @@ html.theme-dark .tv-dialog__chat-username-input--error {
   transition: color 0.35s ease;
 }
 html.theme-dark .tv-dialog__link {
-  color: #1976d2;
+  color: #08C4C4;
 }
 .tv-dialog__link:visited {
   color: #2196f3;
   fill: #2196f3;
 }
 html.theme-dark .tv-dialog__link:visited {
-  fill: #1976d2;
-  color: #1976d2;
+  fill: #08C4C4;
+  color: #08C4C4;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .tv-dialog__link:hover {
