@@ -23,7 +23,7 @@ export default function Index({ smallScreen }) {
               textAlign: 'center',
               border: 'transparent',
               borderBottom:
-                activeKeyStr === 'orders' ? '2px solid #5AC4BE' : '',
+                activeKeyStr === 'orders' ? '2px solid #56DCD7' : '',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
@@ -44,7 +44,7 @@ export default function Index({ smallScreen }) {
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: activeKeyStr === 'fills' ? '2px solid #5AC4BE' : '',
+              borderBottom: activeKeyStr === 'fills' ? '2px solid #56DCD7' : '',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
@@ -66,7 +66,7 @@ export default function Index({ smallScreen }) {
               textAlign: 'center',
               border: 'transparent',
               borderBottom:
-                activeKeyStr === 'balances' ? '2px solid #5AC4BE' : '',
+                activeKeyStr === 'balances' ? '2px solid #56DCD7' : '',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
@@ -89,7 +89,7 @@ export default function Index({ smallScreen }) {
                 textAlign: 'center',
                 border: 'transparent',
                 borderBottom:
-                  activeKeyStr === 'fees' ? '2px solid #5AC4BE' : '',
+                  activeKeyStr === 'fees' ? '2px solid #56DCD7' : '',
                 background: 'transparent',
                 fontSize: 14,
                 fontStyle: 'normal',
@@ -107,7 +107,7 @@ export default function Index({ smallScreen }) {
         </Row>
         <div
           style={{
-            border: '1px solid #1C274F',
+            border: '1px solid #141416',
             minHeight: 50,
             borderBottom: '',
             padding: 16,
@@ -135,7 +135,7 @@ export default function Index({ smallScreen }) {
               textAlign: 'center',
               border: 'transparent',
               borderBottom:
-                activeKeyStr === 'orders' ? '2px solid #5AC4BE' : '',
+                activeKeyStr === 'orders' ? '2px solid #56DCD7' : '',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
@@ -157,7 +157,7 @@ export default function Index({ smallScreen }) {
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: activeKeyStr === 'fills' ? '2px solid #5AC4BE' : '',
+              borderBottom: activeKeyStr === 'fills' ? '2px solid #56DCD7' : '',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
@@ -180,7 +180,7 @@ export default function Index({ smallScreen }) {
               textAlign: 'center',
               border: 'transparent',
               borderBottom:
-                activeKeyStr === 'balances' ? '2px solid #5AC4BE' : '',
+                activeKeyStr === 'balances' ? '2px solid #56DCD7' : '',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
@@ -204,7 +204,7 @@ export default function Index({ smallScreen }) {
                 textAlign: 'center',
                 border: 'transparent',
                 borderBottom:
-                  activeKeyStr === 'fees' ? '2px solid #5AC4BE' : '',
+                  activeKeyStr === 'fees' ? '2px solid #56DCD7' : '',
                 background: 'transparent',
                 fontSize: 14,
                 fontStyle: 'normal',
@@ -222,7 +222,7 @@ export default function Index({ smallScreen }) {
         </Row>
         <div
           style={{
-            border: '1px solid #1C274F',
+            border: '1px solid #141416',
             height: 400,
             borderBottom: '',
             padding: 16,

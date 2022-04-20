@@ -17,36 +17,37 @@ input[type=number]:focus::-webkit-inner-spin-button {
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d313c;
+  background: #212226;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #5b5f67;
+  background: #6D80D6;
+  border: 2px solid #25262B;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #5b5f67;
+  background: #6D80D6;
 }
 .ant-slider-track, .ant-slider:hover .ant-slider-track {
-  background-color: #2abdd2;
+  background-color: #56DCD7;
   opacity: 0.75;
 }
 .ant-slider-track,
 .ant-slider ant-slider-track:hover {
-  background-color: #2abdd2;
+  background-color: #56DCD7;
   opacity: 0.75;
 }
 .ant-slider-dot-active,
 .ant-slider-handle,
 .ant-slider-handle-click-focused,
 .ant-slider:hover .ant-slider-handle:not(.ant-tooltip-open)  {
-  border: 2px solid #2abdd2; 
+  border: 2px solid #56DCD7; 
 }
 .ant-table-tbody > tr.ant-table-row:hover > td {
   background: #273043;
 }
 .ant-table-tbody > tr > td {
-  border-bottom: 8px solid #1A2029;
+  border-bottom: 8px solid #1D1E21;
 }
 .ant-table-container table > thead > tr:first-child th {
   border-bottom: none;
@@ -55,13 +56,13 @@ input[type=number]:focus::-webkit-inner-spin-button {
   border-top: 1px solid #434a59 !important;
 }
 .ant-layout {
-    background: #0F1429
+    background: #1D1E21
   }
   .ant-table {
     background: #212734;
   }
   .ant-table-thead > tr > th {
-    background: #1A2029;
+    background: #1D1E21;
   }
 .ant-select-item-option-content {
   img {
@@ -73,16 +74,16 @@ input[type=number]:focus::-webkit-inner-spin-button {
 }
 
 @-webkit-keyframes highlight {
-  from { background-color: #2abdd2;}
-  to {background-color: #1A2029;}
+  from { background-color: #56DCD7;}
+  to {background-color: #1D1E21;}
 }
 @-moz-keyframes highlight {
-  from { background-color: #2abdd2;}
-  to {background-color: #1A2029;}
+  from { background-color: #56DCD7;}
+  to {background-color: #1D1E21;}
 }
 @-keyframes highlight {
-  from { background-color: #2abdd2;}
-  to {background-color: #1A2029;}
+  from { background-color: #56DCD7;}
+  to {background-color: #1D1E21;}
 }
 .flash {
   -moz-animation: highlight 0.5s ease 0s 1 alternate ;

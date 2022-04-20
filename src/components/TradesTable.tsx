@@ -36,7 +36,7 @@ export default function PublicTrades({ smallScreen }) {
         style={{
           color: 'rgba(241, 241, 242, 0.75)',
           fontSize: 14,
-          borderBottom: '1px solid #1C274F',
+          borderBottom: '1px solid #141416',
           padding: '12px 0 12px 16px',
         }}
       >Recent Market trades</Title>
@@ -66,7 +66,7 @@ export default function PublicTrades({ smallScreen }) {
               <Col
                 span={8}
                 style={{
-                  color: trade.side === 'buy' ? '#41C77A' : '#F23B69',
+                  color: trade.side === 'buy' ? '#3FD49D' : '#D13758',
                   fontSize: 12,
                 }}
               >

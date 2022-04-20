@@ -26,7 +26,7 @@
 html.theme-dark .textInput-3WRWEmm7 {
   border-color: #363c4e;
   color: #f2f3f5;
-  background-color: #131722;
+  background-color: #25262B;
 }
 .textInput-3WRWEmm7::-webkit-input-placeholder {
   color: #adaeb0;
@@ -90,11 +90,11 @@ html.theme-dark .textInput-3WRWEmm7[readonly] {
   }
 }
 html.theme-dark .textInput-3WRWEmm7[disabled] {
-  background-color: #131722;
+  background-color: #25262B;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   html.theme-dark .textInput-3WRWEmm7[disabled]:hover {
-    background-color: #131722;
+    background-color: #25262B;
   }
 }
 html.theme-dark .textInput-3WRWEmm7[disabled] {

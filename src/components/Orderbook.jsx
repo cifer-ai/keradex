@@ -116,8 +116,8 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
     >
       <Title
         style={{
-          borderTop: '1px solid #1C274F',
-          borderBottom: '1px solid #1C274F',
+          borderTop: '1px solid #141416',
+          borderBottom: '1px solid #141416',
           padding: '12px 0 12px 16px',
           color: 'rgba(241, 241, 242, 0.75)',
           fontSize: 14,
@@ -243,8 +243,8 @@ const OrderbookRow = React.memo(
             data-width={sizePercent + '%'}
             data-bgcolor={
               side === 'buy'
-                ? 'rgba(65, 199, 122, 0.6)'
-                : 'rgba(242, 60, 105, 0.6)'
+                ? 'rgba(42, 232, 159, 0.6)'
+                : 'rgba(230, 44, 59, 0.6)'
             }
           />
           <Price onClick={onPriceClick}>{formattedPrice}</Price>
@@ -263,9 +263,9 @@ const MarkPriceComponent = React.memo(
 
     let markPriceColor =
       markPrice > previousMarkPrice
-        ? '#41C77A'
+        ? '#3FD49D'
         : markPrice < previousMarkPrice
-        ? '#F23B69'
+        ? '#D13758'
         : 'white';
 
     let formattedMarkPrice =
@@ -277,8 +277,8 @@ const MarkPriceComponent = React.memo(
       <MarkPriceTitle
         justify="center"
         style={{
-          borderTop: '1px solid #1C274F',
-          borderBottom: '1px solid #1C274F',
+          borderTop: '1px solid #141416',
+          borderBottom: '1px solid #141416',
           fontSize: 16,
         }}
       >

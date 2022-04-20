@@ -238,7 +238,7 @@ html.theme-dark .icon-1S_6X6gw {
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .container-2kDJVADV:hover .icon-1S_6X6gw.interactive-3QZtt2FP {
-    color: #131722;
+    color: #25262B;
   }
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
@@ -384,7 +384,7 @@ html.theme-dark .input-1Fp9QlzO::placeholder {
   border-radius: 4px;
   background-color: transparent;
   font-size: 15px;
-  color: #131722;
+  color: #25262B;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -520,11 +520,11 @@ html.theme-dark
   }
 }
 .inputWithErrorWrapper-3VldItns.focused-3rk113Ah .innerInput-29Ku0bwF {
-  color: #131722;
+  color: #25262B;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .inputWithErrorWrapper-3VldItns.focused-3rk113Ah:hover .innerInput-29Ku0bwF {
-    color: #131722;
+    color: #25262B;
   }
 }
 html.theme-dark
@@ -1012,7 +1012,7 @@ margin-right: 0;
 }
 @media (any-hover: hover), (min--moz-device-pixel-ratio: 0) {
   .control-1HTkHp6S:hover {
-    color: #131722;
+    color: #25262B;
     background-color: #f0f3fa;
   }
 }
@@ -1039,7 +1039,7 @@ margin-right: 0;
 .content-jw-2aYgg {
   display: inline-grid;
   grid-template-columns: auto 1fr;
-  color: #131722;
+  color: #25262B;
   padding: 16px 20px;
   max-width: 550px;
   box-sizing: border-box;
