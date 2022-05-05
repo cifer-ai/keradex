@@ -252,36 +252,36 @@ export const TOKENS: Tokens = {
   WSOL: {
     symbol: 'WSOL',
     mintAddress: 'So11111111111111111111111111111111111111112',
-    referrer: 'HTcarLHe7WRxBQCWvhVB8AP56pnEtJUV2jDGvcpY3xo5',
+    referrer: '8GQ8FXk1K1Y3dPzqTj68C5N3L84ydmcuYd962gGXpBPr',
   },
   BTC: {
     symbol: 'BTC',
     mintAddress: '9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E',
-    referrer: 'GZpS8cY8Nt8HuqxzJh6PXTdSxc38vFUjBmi7eEUkkQtG',
+    referrer: '4tWmU9UkBtYwtcgRRSF4nhQsyn4aYByYRuCZMq4xKSGx',
   },
   ETH: {
     symbol: 'ETH',
     mintAddress: '2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk',
-    referrer: 'CXPTcSxxh4AT38gtv3SPbLS7oZVgXzLbMb83o4ziXjjN',
+    referrer: 'Hg31jCkaBc1YGuNwtrt4ntdY75pr1gKQFk278zJp8rKn',
   },
   USDT: {
     symbol: 'USDT',
     mintAddress: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
-    referrer: '8DwwDNagph8SdwMUdcXS5L9YAyutTyDJmK6cTKrmNFk3',
-  },
-  WUSDT: {
-    symbol: 'WUSDT',
-    mintAddress: 'BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4',
-    referrer: 'CA98hYunCLKgBuD6N8MJSgq1GbW9CXdksLf5mw736tS3',
+    referrer: 'FAUM2f1emyy2xU49VK3vxVTyQYS8Mm7NoB1SyrV8ARdu',
   },
   USDC: {
     symbol: 'USDC',
     mintAddress: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
-    referrer: '92vdtNjEg6Zth3UU1MgPgTVFjSEzTHx66aCdqWdcRkrg',
+    referrer: 'CACsubxexi2EnPsuMhzSqiahspNXZEuA69vonBA7SnTB',
   },
   RAY: {
     symbol: 'RAY',
     mintAddress: '4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R',
-    referrer: '33XpMmMQRf6tSPpmYyzpwU4uXpZHkFwCZsusD9dMYkjy',
+    referrer: '7imdwcZ5TFaDSMzrfVnJyT8PowzwW5oASCcDJbQm2bpn',
+  },
+  KRM: {
+    symbol: 'KRM',
+    mintAddress: 'EwFQ8DHyc3Z2k7HWyABh4ZNBnjr9aGfvFLmdWe5ehepu',
+    referrer: '9DF623C2zSKVt8DdVE6zaeNv6VpUw86dehB7Ycd3NSNH',
   },
 }

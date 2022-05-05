@@ -1,8 +1,8 @@
 {
-  "name": "raydium-dex-ui",
+  "name": "keramos-dex-ui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dex.raydium.io/",
+  "homepage": "https://dex.keramos.tech/",
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
     "@craco/craco": "^5.6.4",
@@ -44,6 +44,7 @@
     "superstruct": "0.8.3",
     "typescript": "^3.9.7"
   },
+    "license" : "Apache-2.0",
   "scripts": {
     "predeploy": "git pull --ff-only && yarn && yarn build",
     "deploy": "gh-pages -d build",

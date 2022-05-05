@@ -35,30 +35,34 @@ const MENU = [
   },
   {
     'title': 'SWAP',
-    'link': 'https://app.keramos.tech/swap/',
+    'link': '/',
   },
   {
     'title': 'FARMS',
-    'link': 'https://app.keramos.tech/farms/',
+    'link': '/',
   },
   {
     'title': 'POOLS',
-    'link': 'https://app.keramos.tech/pools/',
+    'link': '/',
   },
   {
     'title': 'LIQUIDITY',
-    'link': 'https://app.keramos.tech/liquidity/add/',
+    'link': '/',
   },
   {
-    'title': 'DOCS',
+    'title': 'INFO',
     'child': [
+      {
+        'title': 'KERAMOS LANDING',
+        'link': 'https://www.keramos.tech/'
+      },
       {
         'title': 'READ DOCS',
         'link': 'https://keramos.gitbook.io/keramos-docs/'
       },
       {
         'title': 'LITEPAPER',
-        'link': 'https://www.keramos.tech/_files/ugd/f015f3_ce227854ea8e4072b7b8bb9b58b4fa72.pdf?index=true'
+        'link': 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/keramostech/docs/main/Litepaper/Keramos_Litepaper_V1.pdf'
       },
     ]
   },

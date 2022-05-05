@@ -46,7 +46,7 @@ export const TVChartContainer = () => {
   }
   
   const defaultProps: ChartContainerProps = {
-    symbol: 'RAY/USDT',
+    symbol: 'KRM/USDC',
     // @ts-ignore
     interval: resolution ? resolution : '60',
     auto_save_delay: 5,

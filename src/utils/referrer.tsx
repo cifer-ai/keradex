@@ -72,12 +72,12 @@ export const useFeesAccountsFromRefCode = (refCode: string | undefined) => {
       if (!refCode) {
         setUsdc(
           process.env.REACT_APP_USDC_REFERRAL_FEES_ADDRESS
-            ? new PublicKey(process.env.REACT_APP_USDC_REFERRAL_FEES_ADDRESS)
+            ? new PublicKey('7ix4NMa269e6d4XSs8Tu3CU59LYsd4UqTuv3m7sHWgXV')
             : undefined,
         );
         setUsdt(
           process.env.REACT_APP_USDT_REFERRAL_FEES_ADDRESS
-            ? new PublicKey(process.env.REACT_APP_USDT_REFERRAL_FEES_ADDRESS)
+            ? new PublicKey('7ix4NMa269e6d4XSs8Tu3CU59LYsd4UqTuv3m7sHWgXV')
             : undefined,
         );
         return;
