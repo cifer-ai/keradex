@@ -61,7 +61,7 @@ const MENU = [
         'link': 'https://keramos.gitbook.io/keramos-docs/'
       },
       {
-        'title': 'LITEPAPER',
+        'title': 'LITEPAPER V1',
         'link': 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/keramostech/docs/main/Litepaper/Keramos_Litepaper_V1.pdf'
       },
     ]
