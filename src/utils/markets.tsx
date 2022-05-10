@@ -55,6 +55,24 @@ const _MARKETS = [
     programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
   },
   {
+    name: 'KRM/SOL',
+    deprecated: false,
+    address: new PublicKey('GAS1Y7ebKcFwMsA4RyXJQnm5Yb47PiQLJGoxqTRe1zph'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: 'KRM/ETH',
+    deprecated: false,
+    address: new PublicKey('CHFpt2LFVWvbKYLRfpH3ZEHnR23oVh5vhGNWtVqett8K'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: 'KRM/SRM',
+    deprecated: false,
+    address: new PublicKey('8nXc1sEGK7vNrNEetqxwZgm2KQhtB2RNAtmYv7yDAED7'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
     name: 'RAY/USDC',
     deprecated: false,
     address: new PublicKey('2xiv8A5xrJ7RnGdxXB42uFEkYHJjszEhaJyKKt4WaLep'),
