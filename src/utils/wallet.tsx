@@ -28,7 +28,7 @@ export const WALLET_PROVIDERS = [
     url: 'https://www.sollet.io',
     icon: `${ASSET_URL}/sollet.svg`,
   },
-  {
+  /*{
     name: 'Sollet Extension',
     url: 'https://www.sollet.io/extension',
     icon: `${ASSET_URL}/sollet.svg`,
@@ -50,19 +50,19 @@ export const WALLET_PROVIDERS = [
     url: 'https://solflare.com',
     icon: `${ASSET_URL}/solflare.svg`,
     adapter: SolflareExtensionWalletAdapter,
-  },
+  },*/
   {
     name: 'Phantom',
     url: 'https://www.phantom.app',
     icon: `https://www.phantom.app/img/logo.png`,
     adapter: PhantomWalletAdapter,
   },
-  {
+  /*{
     name: 'MathWallet',
     url: 'https://www.mathwallet.org',
     icon: `${ASSET_URL}/mathwallet.svg`,
     adapter: MathWalletAdapter,
-  },
+  },*/
 ];
 
 const WalletContext = React.createContext<null | WalletContextValues>(null);
