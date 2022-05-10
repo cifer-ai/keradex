@@ -165,7 +165,7 @@ export default function TopBar() {
       <Wrapper style={{ background: '#1D1E21'}}>
         <Row wrap={false} style={{ paddingTop: 25, height: 70 }}>
           <Col flex="none">
-            <LogoWrapper onClick={() => history.push(tradePageUrl)} style={{ paddingLeft: 40}}>
+            <LogoWrapper onClick={() => window.open('https://keramos.tech/')} style={{ paddingLeft: 40}}>
               <img src={logo} alt="" style={{ width: 145, height: 40 }} />
             </LogoWrapper>
           </Col>
