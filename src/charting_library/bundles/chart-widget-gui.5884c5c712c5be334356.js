@@ -2155,6 +2155,8 @@
                 e < this._titlesSpawns.length;
                 e++
               ) {
+
+
                 var i = document.createElement('div');
                 i.classList.add(c.title, v[e], 'apply-overflow-tooltip'),
                   (i.dataset.name = 'legend-source-title');
@@ -2162,9 +2164,9 @@
                 s.length > 0
                   ? (i.appendChild(document.createTextNode(s)),
                     i.classList.add(c.withDot))
-                  : i.classList.add(p.blockHidden),
-                  t.appendChild(i),
-                  this._titleElements.push(i);
+                  : i.classList.add(p.blockHidden)
+                  //,t.appendChild(i),
+                  //this._titleElements.push(i);
               }
             }),
             (t.prototype._renderActions = function () {

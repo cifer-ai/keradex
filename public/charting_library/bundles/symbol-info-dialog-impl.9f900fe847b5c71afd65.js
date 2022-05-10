@@ -164,14 +164,14 @@
                   visibility: C,
                 },
                 { title: window.t('Point Value'), propName: 'pointvalue' },
-                {
+                /*{
                   title: window.t('Exchange'),
                   propName: 'exchange',
                 },
                 {
                   title: window.t('Listed Exchange'),
                   propName: 'listed_exchange',
-                },
+                },*/
                 {
                   title: window.t('Currency'),
                   getter: k,
