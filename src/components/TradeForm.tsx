@@ -25,8 +25,9 @@ import {getUnixTs, placeOrder} from '../utils/send';
 
 const BuyButton = styled(Button)`
   margin: 20px 0px 0px 0px;
-  background: #02bf76;
-  border-color: #02bf76;
+  background: #25262b;
+  border-image: linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1;
+  color: #E3E4FF;
 `;
 
 const sliderMarks = {
@@ -311,12 +312,13 @@ export default function TradeForm({
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: side === 'buy' ? '2px solid #56DCD7' : '2px solid #141416',
+              borderBottom: side === 'buy' ? '1px solid' : '1px solid #141416',
+              borderImage: side === 'buy' ? 'linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1' : 'none',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
               fontWeight: 600,
-              color: side === 'buy' ? '##E3E4FF' : 'rgba(241, 241, 242, 0.5)',
+              color: side === 'buy' ? '#E3E4FF' : '#828aa1',
               padding: '12px 0 0 0'
             }}
           >
@@ -330,12 +332,13 @@ export default function TradeForm({
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: side === 'sell' ? '2px solid #56DCD7' : '2px solid #141416',
+              borderBottom: side === 'sell' ? '1px solid' : '1px solid #141416',
+              borderImage: side === 'sell' ? 'linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1' : 'none',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
               fontWeight: 600,
-              color: side === 'sell' ? '##E3E4FF' : 'rgba(241, 241, 242, 0.5)',
+              color: side === 'sell' ? '#E3E4FF' : '#828aa1',
               padding: '12px 0 0 0'
             }}
           >
@@ -365,13 +368,13 @@ export default function TradeForm({
             {/* <Select.Option value="Market Order">Market Order</Select.Option> */}
           </Select>
           <div style={{ marginTop: 25}}>
-            <div style={{ textAlign: 'right', paddingBottom: 8, fontSize: 12, }}>Limit price</div>
+          <div style={{ textAlign: 'left', paddingBottom: 8, paddingLeft: 11, fontSize: 12, }}>Limit price</div>
             <Input
               type="number"
               bordered={false}
-              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#141416', borderRadius: 4, }}
+              style={{ textAlign: 'left', paddingBottom: 8, height: 44, background: '#141416', borderRadius: 4, }}
               suffix={
-                <span style={{ fontSize: 10, opacity: 0.5 }}>{quoteCurrency}</span>
+                <span style={{ fontSize: 14, color: '#666c80' }}>{quoteCurrency}</span>
               }
               value={price}
               step={market?.tickSize || 1}
@@ -380,13 +383,13 @@ export default function TradeForm({
           </div>
 
           <div style={{ marginTop: 25}}>
-            <div style={{ textAlign: 'right', paddingBottom: 8, fontSize: 12, }}>Amount</div>
+          <div style={{ textAlign: 'left', paddingBottom: 8, paddingLeft: 11, fontSize: 12, }}>Amount</div>
             <Input
               type="number"
               bordered={false}
-              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#141416', borderRadius: 4, }}
+              style={{ textAlign: 'left', paddingBottom: 8, height: 44, background: '#141416', borderRadius: 4, }}
               suffix={
-                <span style={{ fontSize: 10, opacity: 0.5 }}>{baseCurrency}</span>
+                <span style={{ fontSize: 14, color: '#666c80' }}>{baseCurrency}</span>
               }
               value={baseSize}
               step={market?.tickSize || 1}
@@ -395,13 +398,13 @@ export default function TradeForm({
           </div>
 
           <div style={{ marginTop: 25}}>
-            <div style={{ textAlign: 'right', paddingBottom: 8, fontSize: 12, }}>Total</div>
+          <div style={{ textAlign: 'left', paddingBottom: 8, paddingLeft: 11, fontSize: 12, }}>Total</div>
             <Input
               type="number"
               bordered={false}
-              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#141416', borderRadius: 4, }}
+              style={{ textAlign: 'left', paddingBottom: 8, height: 44, background: '#141416', borderRadius: 4, }}
               suffix={
-                <span style={{ fontSize: 10, opacity: 0.5 }}>{quoteCurrency}</span>
+                <span style={{ fontSize: 14, color: '#666c80' }}>{quoteCurrency}</span>
               }
               value={quoteSize}
               step={market?.tickSize || 1}
@@ -455,9 +458,10 @@ export default function TradeForm({
             style={{
               marginTop: 20,
               height: 41,
-              background: 'rgba(90, 196, 190, 0.1)',
-              border: '1px solid #56DCD7',
-              borderRadius: 4,
+              backgroundImage: 'linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1',
+              border: '1px solid',
+              borderImage:	'linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1',
+              borderRadius: 0,
             }}
           >
             LIMIT {side.toUpperCase()} {baseCurrency}

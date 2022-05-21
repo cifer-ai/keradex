@@ -54,7 +54,7 @@
               t.lineTo(-12, -17),
               t.lineTo(r, -17),
               t.fill(),
-              (t.fillStyle = '#FFFFFF'),
+              (t.fillStyle = '#E3E4FF'),
               (t.textBaseline = 'middle'),
               (t.textAlign = o() ? 'right' : 'left'),
               this._data.eod)

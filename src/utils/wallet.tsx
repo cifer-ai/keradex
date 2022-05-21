@@ -13,11 +13,11 @@ import { WalletContextValues } from './types';
 import { Button, Modal } from 'antd';
 import {
   WalletAdapter,
-  LedgerWalletAdapter,
+  /*LedgerWalletAdapter,*/
   PhantomWalletAdapter,
-  SolletExtensionAdapter,
+  /*SolletExtensionAdapter,
   MathWalletAdapter,
-  SolflareExtensionWalletAdapter,
+  SolflareExtensionWalletAdapter,*/
 } from '../wallet-adapters';
 
 const ASSET_URL =

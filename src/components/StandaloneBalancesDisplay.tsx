@@ -30,7 +30,7 @@ const ActionButton = styled(Button)`
   padding-right: 15px;
   padding-left: 15px;
   border-radius: 4px;
-  border: 1px solid rgba(241, 241, 242, 0.5);
+  border: 1px solid #828aa1;
 `;
 
 export default function StandaloneBalancesDisplay() {
@@ -134,8 +134,12 @@ export default function StandaloneBalancesDisplay() {
        style={{
          width: '100%',
          borderBottom: '1px solid #141416',
-         fontSize: 14,
-         paddingBottom: 12,
+         fontSize: 13,
+         color: '#E3E4FF',
+         textTransform: 'uppercase',
+         fontWeight: 600,
+         lineHeight: '20px',
+         paddingBottom: 8,
 
        }}
       >
@@ -144,9 +148,10 @@ export default function StandaloneBalancesDisplay() {
       <div style={{ paddingRight: 10}}>
         <Row style={{
           marginTop: 16,
-          color: 'rgba(241, 241, 242, 0.5)',
+          color: '#828aa1',
           fontSize: 12,
-          textAlign: 'right',
+          textAlign: 'left',
+          paddingRight: 4,
         }}>
           <Col span={6} style={{ textAlign: 'left' }}>
             Asset
@@ -164,12 +169,12 @@ export default function StandaloneBalancesDisplay() {
               <Row style={{
                 marginTop: 16,
                 fontSize: 12,
-                color: 'rgba(241, 241, 242, 1)',
-                textAlign: 'right',
-                borderBottom: '1px solid #141416',
+                color: '#E3E4FF',
+                textAlign: 'left',
+                borderBottom: '0',
                 paddingBottom: 18,
               }}>
-                <Col span={6} style={{ color: 'rgba(241, 241, 242, 0.5)', textAlign: 'left' }}>
+                <Col span={6} style={{ color: '#E3E4FF', textAlign: 'left' }}>
                   {currency}
                 </Col>
                 <Col span={9}>
@@ -196,7 +201,7 @@ export default function StandaloneBalancesDisplay() {
               </Row>
 
               {connected && (
-                <RowBox align="middle" style={{ paddingBottom: 10 }}>
+                <RowBox align="middle" style={{ paddingBottom: 18, borderBottom: '1px solid #111111' }}>
                   <StandaloneTokenAccountsSelect
                     accounts={tokenAccounts?.filter(
                       (account) => account.effectiveMint.toBase58() === mint,
@@ -228,7 +233,7 @@ export default function StandaloneBalancesDisplay() {
           rel="noopener noreferrer"
           style={{ color : 'rgb(173,175,184)',}}
         >
-        <div style={{ paddingTop: 16, fontSize: 12, color: '#56DCD7' }}>
+        <div style={{ paddingTop: 16, fontSize: 12, color: '#a4aaf5' }}>
 
             see how it works
 

@@ -9,7 +9,7 @@ import usePrevious from '../utils/usePrevious';
 import { ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons';
 
 const Title = styled.div`
-  color: rgba(255, 255, 255, 1);
+  color: rgba(227, 228, 255, 1);
 `;
 
 const SizeTitle = styled(Row)`
@@ -119,8 +119,11 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           borderTop: '1px solid #141416',
           borderBottom: '1px solid #141416',
           padding: '12px 0 12px 16px',
-          color: 'rgba(241, 241, 242, 0.75)',
-          fontSize: 14,
+          color: '#E3E4FF',
+          fontSize: 13,
+          textTransform: 'uppercase',
+          fontWeight: 600,
+          lineHeight: '20px',
         }}
       >
         Order book
@@ -130,7 +133,7 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           span={12}
           style={{
             textAlign: 'right',
-            color: 'rgba(241, 241, 242, 0.5)',
+            color: '#828aa1',
             fontSize: 12,
           }}
         >
@@ -141,7 +144,7 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           style={{
             textAlign: 'right',
             paddingRight: 20,
-            color: 'rgba(241, 241, 242, 0.5)',
+            color: '#828aa1',
             fontSize: 12,
           }}
         >
@@ -167,7 +170,7 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           span={12}
           style={{
             textAlign: 'right',
-            color: 'rgba(241, 241, 242, 0.5)',
+            color: '#828aa1',
             fontSize: 12,
           }}
         >
@@ -178,7 +181,7 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           style={{
             textAlign: 'right',
             paddingRight: 20,
-            color: 'rgba(241, 241, 242, 0.5)',
+            color: '#828aa1',
             fontSize: 12,
           }}
         >
@@ -263,9 +266,9 @@ const MarkPriceComponent = React.memo(
 
     let markPriceColor =
       markPrice > previousMarkPrice
-        ? '#3FD49D'
+        ? '#72d4b9'
         : markPrice < previousMarkPrice
-        ? '#D13758'
+        ? '#eb4476'
         : 'white';
 
     let formattedMarkPrice =
@@ -279,7 +282,7 @@ const MarkPriceComponent = React.memo(
         style={{
           borderTop: '1px solid #141416',
           borderBottom: '1px solid #141416',
-          fontSize: 16,
+          fontSize: 18,
         }}
       >
         <Col style={{ color: markPriceColor }}>

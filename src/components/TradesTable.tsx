@@ -7,7 +7,7 @@ import FloatingElement from './layout/FloatingElement';
 import { TradeLayout } from '../utils/types';
 
 const Title = styled.div`
-  color: rgba(255, 255, 255, 1);
+  color: rgba(227, 228, 255, 1);
 `;
 const SizeTitle = styled(Row)`
   padding: 20px 0 14px;
@@ -34,18 +34,21 @@ export default function PublicTrades({ smallScreen }) {
     >
       <Title
         style={{
-          color: 'rgba(241, 241, 242, 0.75)',
-          fontSize: 14,
+          color: '#E3E4FF',
+          fontSize: 13,
+          textTransform: 'uppercase',
+          fontWeight: 600,
+          lineHeight: '28px',
           borderBottom: '1px solid #141416',
-          padding: '12px 0 12px 16px',
+          padding: '12px 0 6px 16px',
         }}
       >Recent Market trades</Title>
       <SizeTitle>
-        <Col span={8} style={{ textAlign: 'left', paddingRight: 20, color: 'rgba(241, 241, 242, 0.5)', fontSize: 12 }}>Price ({quoteCurrency}) </Col>
-        <Col span={8} style={{ textAlign: 'right', paddingRight: 20, color: 'rgba(241, 241, 242, 0.5)', fontSize: 12 }}>
+        <Col span={8} style={{ textAlign: 'left', paddingLeft: 16, color: '#828aa1', fontSize: 12 }}>Price ({quoteCurrency}) </Col>
+        <Col span={8} style={{ textAlign: 'left', paddingLeft: 16, color: '#828aa1', fontSize: 12 }}>
           Size ({baseCurrency})
         </Col>
-        <Col span={8} style={{ textAlign: 'right', paddingRight: 20, color: 'rgba(241, 241, 242, 0.5)', fontSize: 12 }}>
+        <Col span={8} style={{ textAlign: 'left', paddingLeft: 16, color: '#828aa1', fontSize: 12 }}>
           Time
         </Col>
       </SizeTitle>
@@ -53,6 +56,7 @@ export default function PublicTrades({ smallScreen }) {
         <div
           style={{
             marginRight: '-10px',
+            marginLeft: '16px',
             paddingRight: '5px',
             overflowY: 'scroll',
             // maxHeight: smallScreen
@@ -62,11 +66,11 @@ export default function PublicTrades({ smallScreen }) {
           }}
         >
           {trades.map((trade: TradeLayout, i: number) => (
-            <Row key={i} style={{ marginBottom: 4 }}>
+            <Row key={i} style={{ marginBottom: 4, marginRight: 4 }}>
               <Col
                 span={8}
                 style={{
-                  color: trade.side === 'buy' ? '#3FD49D' : '#D13758',
+                  color: trade.side === 'buy' ? '#72d4b9' : '#eb4476',
                   fontSize: 12,
                 }}
               >
@@ -76,7 +80,7 @@ export default function PublicTrades({ smallScreen }) {
                     )
                   : trade.price}
               </Col>
-              <Col span={8} style={{ textAlign: 'right', fontSize: 12, }}>
+              <Col span={8} style={{ textAlign: 'right', fontSize: 12, paddingRight: 10, color: '#E3E4FF', }}>
                 {market?.minOrderSize && !isNaN(trade.size)
                   ? Number(trade.size).toFixed(
                       getDecimalCount(market.minOrderSize),

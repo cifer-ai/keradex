@@ -933,7 +933,7 @@
     },
     '/McG': function (e) {
       e.exports = JSON.parse(
-        '{"content":{"chartProperties":{"scalesProperties":{"textColor":"#5D606B","lineColor":"#787B86","backgroundColor":"#ffffff"},"paneProperties":{"vertGridProperties":{"color":"#F0F3FA"},"horzGridProperties":{"color":"#F0F3FA"},"background":"#ffffff"}},"sessions":{"graphics":{"backgrounds":{"outOfSession":{"color":"#2196F3","transparency":92}},"vertlines":{"sessBreaks":{"color":"#4985e7","style":2,"width":1}}}},"mainSourceProperties":{"baseLineColor":"#B2B5BE","candleStyle":{"borderColor":"#378658","upColor":"#26a69a","wickColor":"#737375","wickUpColor":"#26a69a","wickDownColor":"#ef5350","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350"},"haStyle":{"borderColor":"#378658","upColor":"#26a69a","wickColor":"#737375","wickUpColor":"#26a69a","wickDownColor":"#ef5350","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350"},"barStyle":{"downColor":"#ef5350","upColor":"#26a69a"},"pnfStyle":{"downColor":"#ef5350","upColor":"#26a69a","upColorProjection":"#a9dcc3","downColorProjection":"#f5a6ae"},"baselineStyle":{"baselineColor":"rgba( 117, 134, 150, 1)","topFillColor1":"rgba( 38, 166, 154, 0.28)","topFillColor2":"rgba( 38, 166, 154, 0.05)","bottomFillColor1":"rgba( 239, 83, 80, 0.05)","bottomFillColor2":"rgba( 239, 83, 80, 0.28)","topLineColor":"rgba( 38, 166, 154, 1)","bottomLineColor":"rgba( 239, 83, 80, 1)"},"areaStyle":{"transparency":100,"color1":"rgba(33, 150, 243, 0.28)","color2":"#2196f3","linecolor":"#2196f3","linewidth":2,"linestyle":0},"renkoStyle":{"upColor":"#26a69a","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350","upColorProjection":"#a9dcc3","downColorProjection":"#f5a6ae","borderUpColorProjection":"#a9dcc3","borderDownColorProjection":"#f5a6ae","wickUpColor":"#26a69a","wickDownColor":"#ef5350"},"lineStyle":{"color":"#2196f3","linewidth":2,"linestyle":0},"kagiStyle":{"downColor":"#ef5350","upColor":"#26a69a","upColorProjection":"#a9dcc3","downColorProjection":"#f5a6ae"},"pbStyle":{"upColor":"#26a69a","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350","upColorProjection":"#a9dcc3","downColorProjection":"#f5a6ae","borderUpColorProjection":"#a9dcc3","borderDownColorProjection":"#f5a6ae"},"rangeStyle":{"upColor":"#26a69a","downColor":"#ef5350","upColorProjection":"#a9dcc3","downColorProjection":"#f5a6ae"}}}}',
+        '{"content":{"chartProperties":{"scalesProperties":{"textColor":"#5D606B","lineColor":"#787B86","backgroundColor":"#E3E4FF"},"paneProperties":{"vertGridProperties":{"color":"#F0F3FA"},"horzGridProperties":{"color":"#F0F3FA"},"background":"#E3E4FF"}},"sessions":{"graphics":{"backgrounds":{"outOfSession":{"color":"#2196F3","transparency":92}},"vertlines":{"sessBreaks":{"color":"#4985e7","style":2,"width":1}}}},"mainSourceProperties":{"baseLineColor":"#B2B5BE","candleStyle":{"borderColor":"#378658","upColor":"#26a69a","wickColor":"#737375","wickUpColor":"#26a69a","wickDownColor":"#ef5350","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350"},"haStyle":{"borderColor":"#378658","upColor":"#26a69a","wickColor":"#737375","wickUpColor":"#26a69a","wickDownColor":"#ef5350","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350"},"barStyle":{"downColor":"#ef5350","upColor":"#26a69a"},"pnfStyle":{"downColor":"#ef5350","upColor":"#26a69a","upColorProjection":"#a9dcc3","downColorProjection":"#f5a6ae"},"baselineStyle":{"baselineColor":"rgba( 117, 134, 150, 1)","topFillColor1":"rgba( 38, 166, 154, 0.28)","topFillColor2":"rgba( 38, 166, 154, 0.05)","bottomFillColor1":"rgba( 239, 83, 80, 0.05)","bottomFillColor2":"rgba( 239, 83, 80, 0.28)","topLineColor":"rgba( 38, 166, 154, 1)","bottomLineColor":"rgba( 239, 83, 80, 1)"},"areaStyle":{"transparency":100,"color1":"rgba(33, 150, 243, 0.28)","color2":"#2196f3","linecolor":"#2196f3","linewidth":2,"linestyle":0},"renkoStyle":{"upColor":"#26a69a","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350","upColorProjection":"#a9dcc3","downColorProjection":"#f5a6ae","borderUpColorProjection":"#a9dcc3","borderDownColorProjection":"#f5a6ae","wickUpColor":"#26a69a","wickDownColor":"#ef5350"},"lineStyle":{"color":"#2196f3","linewidth":2,"linestyle":0},"kagiStyle":{"downColor":"#ef5350","upColor":"#26a69a","upColorProjection":"#a9dcc3","downColorProjection":"#f5a6ae"},"pbStyle":{"upColor":"#26a69a","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350","upColorProjection":"#a9dcc3","downColorProjection":"#f5a6ae","borderUpColorProjection":"#a9dcc3","borderDownColorProjection":"#f5a6ae"},"rangeStyle":{"upColor":"#26a69a","downColor":"#ef5350","upColorProjection":"#a9dcc3","downColorProjection":"#f5a6ae"}}}}',
       );
     },
     '/ToI': function (e, t, i) {
@@ -32534,7 +32534,7 @@
     },
     '8pII': function (e) {
       e.exports = JSON.parse(
-        '{"content":{"chartProperties":{"scalesProperties":{"textColor":"#9598A1","lineColor":"#5D606B","backgroundColor":"#ffffff"},"paneProperties":{"vertGridProperties":{"color":"#1E222D"},"horzGridProperties":{"color":"#1E222D"},"background":"#25262B"}},"sessions":{"graphics":{"backgrounds":{"outOfSession":{"color":"#2196f3","transparency":92}},"vertlines":{"sessBreaks":{"color":"#4985e7","style":2,"width":1}}}},"mainSourceProperties":{"baseLineColor":"#5d606b","candleStyle":{"borderColor":"#378658","upColor":"#26a69a","wickColor":"#B5B5B8","wickUpColor":"#26a69a","wickDownColor":"#ef5350","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350"},"haStyle":{"borderColor":"#378658","upColor":"#26a69a","wickColor":"#B5B5B8","wickUpColor":"#26a69a","wickDownColor":"#ef5350","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350"},"barStyle":{"downColor":"#ef5350","upColor":"#26a69a"},"pnfStyle":{"downColor":"#ef5350","upColor":"#26a69a","upColorProjection":"#336854","downColorProjection":"#7f323f"},"baselineStyle":{"baselineColor":"rgba( 117, 134, 150, 1)","topFillColor1":"rgba( 38, 166, 154, 0.28)","topFillColor2":"rgba( 38, 166, 154, 0.05)","bottomFillColor1":"rgba( 239, 83, 80, 0.05)","bottomFillColor2":"rgba( 239, 83, 80, 0.28)","topLineColor":"rgba( 38, 166, 154, 1)","bottomLineColor":"rgba( 239, 83, 80, 1)"},"areaStyle":{"transparency":100,"color1":"rgba(33, 150, 243, 0.28)","color2":"#2196f3","linecolor":"#2196f3","linewidth":2,"linestyle":0},"renkoStyle":{"upColor":"#26a69a","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350","upColorProjection":"#336854","downColorProjection":"#7f323f","borderUpColorProjection":"#336854","borderDownColorProjection":"#7f323f","wickUpColor":"#26a69a","wickDownColor":"#ef5350"},"lineStyle":{"color":"#2196f3","linewidth":2,"linestyle":0},"kagiStyle":{"downColor":"#ef5350","upColor":"#26a69a","upColorProjection":"#336854","downColorProjection":"#7f323f"},"pbStyle":{"upColor":"#26a69a","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350","upColorProjection":"#336854","downColorProjection":"#7f323f","borderUpColorProjection":"#336854","borderDownColorProjection":"#7f323f"},"rangeStyle":{"upColor":"#26a69a","downColor":"#ef5350","upColorProjection":"#336854","downColorProjection":"#7f323f"}}}}',
+        '{"content":{"chartProperties":{"scalesProperties":{"textColor":"#9598A1","lineColor":"#5D606B","backgroundColor":"#E3E4FF"},"paneProperties":{"vertGridProperties":{"color":"#1E222D"},"horzGridProperties":{"color":"#1E222D"},"background":"#25262B"}},"sessions":{"graphics":{"backgrounds":{"outOfSession":{"color":"#2196f3","transparency":92}},"vertlines":{"sessBreaks":{"color":"#4985e7","style":2,"width":1}}}},"mainSourceProperties":{"baseLineColor":"#5d606b","candleStyle":{"borderColor":"#378658","upColor":"#26a69a","wickColor":"#B5B5B8","wickUpColor":"#26a69a","wickDownColor":"#ef5350","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350"},"haStyle":{"borderColor":"#378658","upColor":"#26a69a","wickColor":"#B5B5B8","wickUpColor":"#26a69a","wickDownColor":"#ef5350","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350"},"barStyle":{"downColor":"#ef5350","upColor":"#26a69a"},"pnfStyle":{"downColor":"#ef5350","upColor":"#26a69a","upColorProjection":"#336854","downColorProjection":"#7f323f"},"baselineStyle":{"baselineColor":"rgba( 117, 134, 150, 1)","topFillColor1":"rgba( 38, 166, 154, 0.28)","topFillColor2":"rgba( 38, 166, 154, 0.05)","bottomFillColor1":"rgba( 239, 83, 80, 0.05)","bottomFillColor2":"rgba( 239, 83, 80, 0.28)","topLineColor":"rgba( 38, 166, 154, 1)","bottomLineColor":"rgba( 239, 83, 80, 1)"},"areaStyle":{"transparency":100,"color1":"rgba(33, 150, 243, 0.28)","color2":"#2196f3","linecolor":"#2196f3","linewidth":2,"linestyle":0},"renkoStyle":{"upColor":"#26a69a","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350","upColorProjection":"#336854","downColorProjection":"#7f323f","borderUpColorProjection":"#336854","borderDownColorProjection":"#7f323f","wickUpColor":"#26a69a","wickDownColor":"#ef5350"},"lineStyle":{"color":"#2196f3","linewidth":2,"linestyle":0},"kagiStyle":{"downColor":"#ef5350","upColor":"#26a69a","upColorProjection":"#336854","downColorProjection":"#7f323f"},"pbStyle":{"upColor":"#26a69a","downColor":"#ef5350","borderUpColor":"#26a69a","borderDownColor":"#ef5350","upColorProjection":"#336854","downColorProjection":"#7f323f","borderUpColorProjection":"#336854","borderDownColorProjection":"#7f323f"},"rangeStyle":{"upColor":"#26a69a","downColor":"#ef5350","upColorProjection":"#336854","downColorProjection":"#7f323f"}}}}',
       );
     },
     '8qoI': function (e, t, i) {
@@ -41658,7 +41658,7 @@
                     else {
                       var r = e.replace(
                         /fill="#[\da-f]{6}"/i,
-                        'fill="#FFFFFF"',
+                        'fill="#E3E4FF"',
                       );
                       (this._image.canvas.src =
                         'data:image/svg+xml;charset=utf-8,' +
@@ -76119,7 +76119,7 @@
           violet: '#ee82ee',
           violetred: '#d02090',
           wheat: '#f5deb3',
-          white: '#ffffff',
+          white: '#E3E4FF',
           whitesmoke: '#f5f5f5',
           yellow: '#ffff00',
           yellowgreen: '#9acd32',
@@ -103688,7 +103688,7 @@
                   visible: !0,
                 },
                 paneProperties: {
-                  background: '#ffffff',
+                  background: '#E3E4FF',
                   vertGridProperties: {
                     color: '#F0F3FA',
                     style: CanvasEx.LINESTYLE_SOLID,
@@ -103731,7 +103731,7 @@
                   },
                 },
                 scalesProperties: {
-                  backgroundColor: '#ffffff',
+                  backgroundColor: '#E3E4FF',
                   lineColor: '#787B86',
                   textColor: '#5D606B',
                   fontSize: 12,
@@ -104024,7 +104024,7 @@
                 bodyBorderInactiveBuyColor: 'rgba(64,148,232,.5)',
                 bodyBorderActiveSellColor: 'rgb(231,86,86)',
                 bodyBorderInactiveSellColor: 'rgba(231,86,86,.5)',
-                bodyBackgroundColor: 'rgba( 255, 255, 255, 0.75)',
+                bodyBackgroundColor: 'rgba( 227, 228, 255, 0.75)',
                 bodyBackgroundTransparency: 25,
                 bodyTextInactiveLimitColor: 'rgba(38,140,2,.5)',
                 bodyTextActiveLimitColor: 'rgb(38,140,2)',
@@ -104046,7 +104046,7 @@
                 quantityBackgroundActiveBuyColor: 'rgb(64,148,232)',
                 quantityBackgroundInactiveSellColor: 'rgba(231,86,86,.5)',
                 quantityBackgroundActiveSellColor: 'rgb(231,86,86)',
-                quantityTextColor: 'rgba( 255, 255, 255, 1)',
+                quantityTextColor: 'rgba( 227, 228, 255, 1)',
                 quantityTextTransparency: 0,
                 quantityFontFamily: 'Verdana',
                 quantityFontSize: 9,
@@ -104056,7 +104056,7 @@
                 cancelButtonBorderInactiveBuyColor: 'rgba(64,148,232,.5)',
                 cancelButtonBorderActiveSellColor: 'rgb(231,86,86)',
                 cancelButtonBorderInactiveSellColor: 'rgba(231,86,86,.5)',
-                cancelButtonBackgroundColor: 'rgba( 255, 255, 255, 0.75)',
+                cancelButtonBackgroundColor: 'rgba( 227, 228, 255, 0.75)',
                 cancelButtonBackgroundTransparency: 25,
                 cancelButtonIconActiveBuyColor: 'rgb(64,148,232)',
                 cancelButtonIconInactiveBuyColor: 'rgba(64,148,232,.5)',
@@ -104075,7 +104075,7 @@
                 lineWidth: 'inherit',
                 bodyBorderBuyColor: 'rgb(64,148,232)',
                 bodyBorderSellColor: 'rgb(231,86,86)',
-                bodyBackgroundColor: 'rgba( 255, 255, 255, 0.75)',
+                bodyBackgroundColor: 'rgba( 227, 228, 255, 0.75)',
                 bodyBackgroundTransparency: 25,
                 bodyTextPositiveColor: 'rgb(38,140,2)',
                 bodyTextNeutralColor: 'rgb(100,100,100)',
@@ -104088,7 +104088,7 @@
                 quantityBorderSellColor: 'rgb(231,86,86)',
                 quantityBackgroundBuyColor: 'rgb(64,148,232)',
                 quantityBackgroundSellColor: 'rgb(231,86,86)',
-                quantityTextColor: 'rgba( 255, 255, 255, 1)',
+                quantityTextColor: 'rgba( 227, 228, 255, 1)',
                 quantityTextTransparency: 0,
                 quantityFontFamily: 'Verdana',
                 quantityFontSize: 9,
@@ -104096,13 +104096,13 @@
                 quantityFontItalic: !1,
                 reverseButtonBorderBuyColor: 'rgb(64,148,232)',
                 reverseButtonBorderSellColor: 'rgb(231,86,86)',
-                reverseButtonBackgroundColor: 'rgba( 255, 255, 255, 0.75)',
+                reverseButtonBackgroundColor: 'rgba( 227, 228, 255, 0.75)',
                 reverseButtonBackgroundTransparency: 25,
                 reverseButtonIconBuyColor: 'rgb(64,148,232)',
                 reverseButtonIconSellColor: 'rgb(231,86,86)',
                 closeButtonBorderBuyColor: 'rgb(64,148,232)',
                 closeButtonBorderSellColor: 'rgb(231,86,86)',
-                closeButtonBackgroundColor: 'rgba( 255, 255, 255, 0.75)',
+                closeButtonBackgroundColor: 'rgba( 227, 228, 255, 0.75)',
                 closeButtonBackgroundTransparency: 25,
                 closeButtonIconBuyColor: 'rgb(64,148,232)',
                 closeButtonIconSellColor: 'rgb(231,86,86)',
@@ -104292,7 +104292,7 @@
                 linecolor: 'rgba(30,136,229,1)',
                 linewidth: 1,
                 font: f,
-                textcolor: 'rgba( 255, 255, 255, 1)',
+                textcolor: 'rgba( 227, 228, 255, 1)',
                 fontsize: 12,
                 fillLabelBackground: !0,
                 labelBackgroundColor: 'rgba(30,136,229,0.9)',
@@ -104308,7 +104308,7 @@
                 linecolor: 'rgba(30,136,229,1)',
                 linewidth: 1,
                 font: f,
-                textcolor: 'rgba( 255, 255, 255, 1)',
+                textcolor: 'rgba( 227, 228, 255, 1)',
                 fontsize: 12,
                 fillLabelBackground: !0,
                 labelBackgroundColor: 'rgba(30,136,229,0.9)',
@@ -104324,7 +104324,7 @@
                 linecolor: 'rgba(30,136,229,1)',
                 linewidth: 1,
                 font: f,
-                textcolor: 'rgba( 255, 255, 255, 1)',
+                textcolor: 'rgba( 227, 228, 255, 1)',
                 fontsize: 12,
                 fillLabelBackground: !0,
                 labelBackgroundColor: 'rgba(30,136,229,0.9)',
@@ -104339,7 +104339,7 @@
                 linecolor: 'rgba(120, 123, 134, 1)',
                 linewidth: 1,
                 font: 'Verdana',
-                textcolor: 'rgba(255, 255, 255, 1)',
+                textcolor: 'rgba(227, 228, 255, 1)',
                 fontsize: 12,
                 fillLabelBackground: !0,
                 labelBackgroundColor: 'rgba( 88, 88, 88, 1)',
@@ -104361,7 +104361,7 @@
                 linecolor: 'rgba(120, 123, 134, 1)',
                 linewidth: 1,
                 font: 'Verdana',
-                textcolor: 'rgba(255, 255, 255, 1)',
+                textcolor: 'rgba(227, 228, 255, 1)',
                 fontsize: 12,
                 fillLabelBackground: !0,
                 labelBackgroundColor: 'rgba( 88, 88, 88, 1)',
@@ -104589,7 +104589,7 @@
                 wordWrapWidth: 400,
               },
               linetoolballoon: {
-                color: '#ffffff',
+                color: '#E3E4FF',
                 backgroundColor: 'rgba(156, 39, 176, 0.7)',
                 borderColor: 'rgba(156, 39, 176, 0.0)',
                 fontsize: 16,
@@ -104644,7 +104644,7 @@
               linetoolflagmark: { flagColor: '#2196F3' },
               linetoolnote: {
                 markerColor: '#2196f3',
-                textColor: '#ffffff',
+                textColor: '#E3E4FF',
                 backgroundColor: 'rgba(33, 150, 243, 0.7)',
                 backgroundTransparency: 0,
                 borderColor: '#2196f3',
@@ -104656,7 +104656,7 @@
               },
               linetoolnoteabsolute: {
                 markerColor: '#2196f3',
-                textColor: '#ffffff',
+                textColor: '#E3E4FF',
                 backgroundColor: 'rgba(33, 150, 243, 0.7)',
                 backgroundTransparency: 0,
                 font: 'Arial',
@@ -104666,7 +104666,7 @@
                 fixedSize: !0,
               },
               linetoolpricelabel: {
-                color: '#ffffff',
+                color: '#E3E4FF',
                 backgroundColor: '#2196f3',
                 borderColor: '#2196f3',
                 fontWeight: 'bold',
@@ -104724,15 +104724,15 @@
                 linecolor: 'rgba(33, 150, 243, 1)',
                 linewidth: 1,
                 sourceBackColor: 'rgba(33, 150, 243, 1)',
-                sourceTextColor: 'rgba(255, 255, 255, 1)',
+                sourceTextColor: 'rgba(227, 228, 255, 1)',
                 sourceStrokeColor: 'rgba(33, 150, 243, 1)',
                 targetStrokeColor: 'rgba(33, 150, 243, 1)',
                 targetBackColor: 'rgba(33, 150, 243, 1)',
-                targetTextColor: 'rgba(255, 255, 255, 1)',
+                targetTextColor: 'rgba(227, 228, 255, 1)',
                 successBackground: 'rgba(76, 175, 80, 1)',
-                successTextColor: 'rgba(255, 255, 255, 1)',
+                successTextColor: 'rgba(227, 228, 255, 1)',
                 failureBackground: 'rgba(244, 67, 54, 1)',
-                failureTextColor: 'rgba(255, 255, 255, 1)',
+                failureTextColor: 'rgba(227, 228, 255, 1)',
                 intermediateBackColor: 'rgba(234, 210, 137, 1)',
                 intermediateTextColor: 'rgba(109, 77, 34, 1)',
                 transparency: 10,
@@ -104746,7 +104746,7 @@
                 linewidth: 1,
               },
               linetoolcallout: {
-                color: '#ffffff',
+                color: '#E3E4FF',
                 backgroundColor: 'rgba(0, 151, 167, 0.7)',
                 transparency: 50,
                 linewidth: 1,
@@ -105325,7 +105325,7 @@
               },
               linetool5pointspattern: {
                 color: 'rgba( 204, 40, 149, 1)',
-                textcolor: 'rgba( 255, 255, 255, 1)',
+                textcolor: 'rgba( 227, 228, 255, 1)',
                 fillBackground: !0,
                 backgroundColor: 'rgba( 204, 40, 149, 0.5)',
                 font: 'Verdana',
@@ -105337,7 +105337,7 @@
               },
               linetoolcypherpattern: {
                 color: '#CC2895',
-                textcolor: '#FFFFFF',
+                textcolor: '#E3E4FF',
                 fillBackground: !0,
                 backgroundColor: '#CC2895',
                 font: 'Verdana',
@@ -105349,7 +105349,7 @@
               },
               linetooltrianglepattern: {
                 color: 'rgba( 149, 40, 255, 1)',
-                textcolor: 'rgba( 255, 255, 255, 1)',
+                textcolor: 'rgba( 227, 228, 255, 1)',
                 fillBackground: !0,
                 backgroundColor: 'rgba( 149, 40, 204, 0.5)',
                 font: 'Verdana',
@@ -105361,7 +105361,7 @@
               },
               linetoolabcd: {
                 color: 'rgba( 0, 155, 0, 1)',
-                textcolor: 'rgba( 255, 255, 255, 1)',
+                textcolor: 'rgba( 227, 228, 255, 1)',
                 font: 'Verdana',
                 fontsize: 12,
                 bold: !1,
@@ -105370,7 +105370,7 @@
               },
               linetoolthreedrivers: {
                 color: 'rgba( 149, 40, 255, 1)',
-                textcolor: 'rgba( 255, 255, 255, 1)',
+                textcolor: 'rgba( 227, 228, 255, 1)',
                 fillBackground: !0,
                 backgroundColor: 'rgba( 149, 40, 204, 0.5)',
                 font: 'Verdana',
@@ -105382,7 +105382,7 @@
               },
               linetoolheadandshoulders: {
                 color: 'rgba( 69, 104, 47, 1)',
-                textcolor: 'rgba( 255, 255, 255, 1)',
+                textcolor: 'rgba( 227, 228, 255, 1)',
                 fillBackground: !0,
                 backgroundColor: 'rgba( 69, 168, 47, 0.5)',
                 font: 'Verdana',
@@ -110124,7 +110124,7 @@
       var r = i('mNbo');
       var n = Object(r.a)('old')
         ? 'system-ui, -apple-system'
-        : "'Trebuchet MS', Roboto, Ubuntu, sans-serif";
+        : "'Source Code Pro', 'Inter', Roboto, Ubuntu, sans-serif";
     },
     zL3Q: function (e, t, i) {
       'use strict';
@@ -110677,7 +110677,7 @@
                   {
                     points: [X],
                     text: q,
-                    color: '#FFFFFF',
+                    color: '#E3E4FF',
                     horzAlign: 'center',
                     vertAlign: 'middle',
                     font: E.CHART_FONT_FAMILY,

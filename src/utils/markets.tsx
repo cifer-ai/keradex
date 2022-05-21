@@ -45,7 +45,7 @@ import tuple from 'immutable-tuple';
 import { useWallet } from './wallet';
 
 // Used in debugging, should be false in production
-const _IGNORE_DEPRECATED = false;
+const _IGNORE_DEPRECATED = true;
 
 const _MARKETS = [
   {
@@ -73,6 +73,54 @@ const _MARKETS = [
     programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
   },
   {
+    name: "SOL/USDC",
+    deprecated: false,
+    address: new PublicKey('9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "SOL/USDT",
+    deprecated: false,
+    address: new PublicKey('HWHvQhFmJB3NUcu1aihKmrKegfVxBEHzwVX6yZCKEsi1'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "SRM/USDC",
+    deprecated: false,
+    address: new PublicKey('ByRys5tuUWDgL73G8JBAEfkdFf8JWBzPBDHsBVQ5vbQA'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "SRM/USDT",
+    deprecated: false,
+    address: new PublicKey('AtNnsY1AyRERWJ8xCskfz38YdvruWVJQUVXgScC1iPb'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "SRM/SOL",
+    deprecated: false,
+    address: new PublicKey('jyei9Fpj2GtHLDDGgcuhDacxYLLiSyxU4TY7KxB2xai'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "FIDA/USDC",
+    deprecated: false,
+    address: new PublicKey('E14BKBhDWD4EuTkWj1ooZezesGxMW8LPCps4W5PuzZJo'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "FIDA/USDT",
+    deprecated: false,
+    address: new PublicKey('EbV7pPpEvheLizuYX3gUCvWM8iySbSRAhu2mQ5Vz2Mxf'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "MNGO/USDC",
+    deprecated: false,
+    address: new PublicKey('3d4rzwpy9iGdCZvgxcu7B1YocYffVLsQXPXkBZKt2zLc'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
     name: 'RAY/USDC',
     deprecated: false,
     address: new PublicKey('2xiv8A5xrJ7RnGdxXB42uFEkYHJjszEhaJyKKt4WaLep'),
@@ -85,12 +133,6 @@ const _MARKETS = [
     programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
   },
   {
-    name: 'RAY/SRM',
-    deprecated: false,
-    address: new PublicKey('Cm4MmknScg7qbKqytb1mM92xgDxv3TNXos4tKbBqTDy7'),
-    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
-  },
-  {
     name: 'RAY/SOL',
     deprecated: false,
     address: new PublicKey('C6tp2RVZnxBPFbnAsfTjis8BN9tycESAT4SgDQgbbrsA'),
@@ -100,6 +142,138 @@ const _MARKETS = [
     name: 'RAY/ETH',
     deprecated: false,
     address: new PublicKey('6jx6aoNFbmorwyncVP5V5ESKfuFc9oUYebob1iF6tgN4'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: 'RAY/SRM',
+    deprecated: false,
+    address: new PublicKey('Cm4MmknScg7qbKqytb1mM92xgDxv3TNXos4tKbBqTDy7'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "DXL/USDC",
+    deprecated: false,
+    address: new PublicKey('DYfigimKWc5VhavR4moPBibx9sMcWYVSjVdWvPztBPTa'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "TULIP/USDC",
+    deprecated: false,
+    address: new PublicKey('8GufnKq7YnXKhnB3WNhgy5PzU9uvHbaaRrZWQK6ixPxW'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "TULIP/RAY",
+    deprecated: false,
+    address: new PublicKey('GXde1EjpxVV5fzhHJcZqdLmsA3zmaChGFstZMjWsgKW7'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "BTC/USDC",
+    deprecated: false,
+    address: new PublicKey('A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "BTC/SRM",
+    deprecated: false,
+    address: new PublicKey('HfsedaWauvDaLPm6rwgMc6D5QRmhr8siqGtS6tf2wthU'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "BTC/mSOL",
+    deprecated: false,
+    address: new PublicKey('HvanEnuruBXBPJymSLr9EmsFUnZcbY97B7RBwZAmfcax'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "ETH/USDC",
+    deprecated: false,
+    address: new PublicKey('4tSvZvnbyzHXLMTiFonMyxZoHmFqau1XArcRCVHLZ5gX'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "ETH/SOL",
+    deprecated: false,
+    address: new PublicKey('7gtMZphDnZre32WfedWnDLhYYWJ2av1CCn1RES5g8QUf'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "BNB/USDC",
+    deprecated: false,
+    address: new PublicKey('3zzTxtDCt9PimwzGrgWJEbxZfSLetDMkdYegPanGNpMf'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "LUNA/USDC",
+    deprecated: false,
+    address: new PublicKey('HBTu8hNaoT3VyiSSzJYa8jwt9sDGKtJviSwFa11iXdmE'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "soFTT/USDC",
+    deprecated: false,
+    address: new PublicKey('2Pbh1CvRVku1TgewMfycemghf6sU9EyuFDcNXqvRmSxc'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "soFTT/SRM",
+    deprecated: false,
+    address: new PublicKey('CDvQqnMrt9rmjAxGGE6GTPUdzLpEhgNuNZ1tWAvPsF3W'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "USDT/USDC",
+    deprecated: false,
+    address: new PublicKey('Ec1aq54XKH9o5fe169cU2sCcxxTP54eeQCe77SpizKuc'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "MANA/USDC",
+    deprecated: false,
+    address: new PublicKey('7GSn6KQRasgPQCHwCbuDjDCsyZ3cxVHKWFmBXzJUUW8P'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "SAND/USDC",
+    deprecated: false,
+    address: new PublicKey('3FE2g3cadTJjN3C7gNRavwnv7Yh9Midq7h9KgTVUE7tR'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "AXSet/USDC",
+    deprecated: false,
+    address: new PublicKey('HZCheduA4nsSuQpVww1TiyKZpXSAitqaXxjBD2ymg22X'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "CHICKS/USDC",
+    deprecated: false,
+    address: new PublicKey('Eg8a9ZicLPSyak4CiXfiMeJK6jmHq57Xx5ag5GY6vcDj'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "SUSHI/USDC",
+    deprecated: false,
+    address: new PublicKey('A1Q9iJDVVS8Wsswr9ajeZugmj64bQVCYLZQLra2TMBMo'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "soSUSHI/SRM",
+    deprecated: false,
+    address: new PublicKey('FGYAizUhNEC9GBmj3UyxdiRWmGjR3TfzMq2dznwYnjtH'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "UNI/USDC",
+    deprecated: false,
+    address: new PublicKey('B7b5rjQuqQCuGqmUBWmcCTqaL3Z1462mo4NArqty6QFR'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
+  {
+    name: "SHIB/USDC",
+    deprecated: false,
+    address: new PublicKey('Er7Jp4PADPVHifykFwbVoHdkL1RtZSsx9zGJrPJTrCgW'),
     programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
   },
   // ...MARKETS,

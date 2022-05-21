@@ -4267,6 +4267,7 @@ table.tv-chart-events-table th {
 }
 html.theme-dark table.tv-chart-events-table th {
   color: #9598a1;
+  font-weight: 600;
 }
 table.tv-chart-events-table td {
   font-weight: 700;

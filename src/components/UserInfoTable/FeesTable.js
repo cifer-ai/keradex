@@ -51,8 +51,8 @@ export default function FeesTable({ market }) {
         <Col span={24}>
           <Row
             style={{
-              fontSize: 14,
-              color: 'rgba(241, 241, 242, 0.5)',
+              fontSize: 13,
+              color: '#828aa1',
               paddingBottom: 16,
             }}
           >
@@ -78,7 +78,7 @@ export default function FeesTable({ market }) {
                 key={index}
                 style={{
                   fontSize: 14,
-                  color: 'rgba(241, 241, 242, 1)',
+                  color: '#E3E4FF',
                   paddingBottom: 16,
                 }}
               >
@@ -86,7 +86,7 @@ export default function FeesTable({ market }) {
                   <Typography>{feeTier}</Typography>
                   {/* {index === 0 ? (
                     <div style={{ marginLeft: 10 }}>
-                      <Tag color={'#3FD49D'} style={{ fontWeight: 700 }}>
+                      <Tag color={'#72d4b9'} style={{ fontWeight: 700 }}>
                         Selected
                       </Tag>
                     </div>
@@ -113,7 +113,7 @@ export default function FeesTable({ market }) {
                     : 'UNKNOWN'}
                 </Col>
 
-                <Col span={24} style={{ textAlign: 'left' }}>
+                <Col span={24} style={{ textAlign: 'left', color: '#80859c', marginTop: 10, fontSize: '12px' }}>
                   Public key: {pubkey.toBase58()}
                 </Col>
               </Row>

@@ -57,8 +57,8 @@ export default function BalancesTable({
     <>
       <Row
         style={{
-          fontSize: 14,
-          color: 'rgba(241, 241, 242, 0.5)',
+          fontSize: 13,
+          color: '#828aa1',
           paddingBottom: 16,
         }}
       >
@@ -95,7 +95,7 @@ export default function BalancesTable({
               key={i}
               style={{
                 fontSize: 14,
-                color: 'rgba(241, 241, 242, 1)',
+                color: '#E3E4FF',
                 paddingBottom: 16,
               }}
             >

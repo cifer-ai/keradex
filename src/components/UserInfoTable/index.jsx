@@ -23,15 +23,17 @@ export default function Index({ smallScreen }) {
               textAlign: 'center',
               border: 'transparent',
               borderBottom:
-                activeKeyStr === 'orders' ? '2px solid #56DCD7' : '',
+                activeKeyStr === 'orders' ? '1px solid #72d4b9' : '',
+              borderImage:	'linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1',
+              textTransform: 'uppercase',
               background: 'transparent',
-              fontSize: 14,
+              fontSize: 13,
               fontStyle: 'normal',
               fontWeight: 600,
               color:
                 activeKeyStr === 'orders'
-                  ? '##E3E4FF'
-                  : 'rgba(241, 241, 242, 0.5)',
+                  ? '#E3E4FF'
+                  : '#828aa1',
               padding: '12px 0 12px',
             }}
           >
@@ -44,15 +46,17 @@ export default function Index({ smallScreen }) {
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: activeKeyStr === 'fills' ? '2px solid #56DCD7' : '',
+              borderBottom: activeKeyStr === 'fills' ? '1px solid #72d4b9' : '',
+              borderImage:	'linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1',
+              textTransform: 'uppercase',
               background: 'transparent',
-              fontSize: 14,
+              fontSize: 13,
               fontStyle: 'normal',
               fontWeight: 600,
               color:
                 activeKeyStr === 'fills'
-                  ? '##E3E4FF'
-                  : 'rgba(241, 241, 242, 0.5)',
+                  ? '#E3E4FF'
+                  : '#828aa1',
               padding: '12px 0 12px',
             }}
           >
@@ -66,15 +70,17 @@ export default function Index({ smallScreen }) {
               textAlign: 'center',
               border: 'transparent',
               borderBottom:
-                activeKeyStr === 'balances' ? '2px solid #56DCD7' : '',
+                activeKeyStr === 'balances' ? '1px solid #72d4b9' : '',
+              borderImage:	'linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1',
+              textTransform: 'uppercase',
               background: 'transparent',
-              fontSize: 14,
+              fontSize: 13,
               fontStyle: 'normal',
               fontWeight: 600,
               color:
                 activeKeyStr === 'balances'
-                  ? '##E3E4FF'
-                  : 'rgba(241, 241, 242, 0.5)',
+                  ? '#E3E4FF'
+                  : '#828aa1',
               padding: '12px 0 12px',
             }}
           >
@@ -89,15 +95,17 @@ export default function Index({ smallScreen }) {
                 textAlign: 'center',
                 border: 'transparent',
                 borderBottom:
-                  activeKeyStr === 'fees' ? '2px solid #56DCD7' : '',
+                  activeKeyStr === 'fees' ? '1px solid #72d4b9' : '',
+                borderImage:	'linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1',
+                textTransform: 'uppercase',
                 background: 'transparent',
-                fontSize: 14,
+                fontSize: 13,
                 fontStyle: 'normal',
                 fontWeight: 600,
                 color:
                   activeKeyStr === 'fees'
-                    ? '##E3E4FF'
-                    : 'rgba(241, 241, 242, 0.5)',
+                    ? '#E3E4FF'
+                    : '#828aa1',
                 padding: '12px 0 12px',
               }}
             >
@@ -135,15 +143,17 @@ export default function Index({ smallScreen }) {
               textAlign: 'center',
               border: 'transparent',
               borderBottom:
-                activeKeyStr === 'orders' ? '2px solid #56DCD7' : '',
+                activeKeyStr === 'orders' ? '1px solid #72d4b9' : '',
+              borderImage:	'linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1',
+              textTransform: 'uppercase',
               background: 'transparent',
-              fontSize: 14,
+              fontSize: 13,
               fontStyle: 'normal',
               fontWeight: 600,
               color:
                 activeKeyStr === 'orders'
-                  ? '##E3E4FF'
-                  : 'rgba(241, 241, 242, 0.5)',
+                  ? '#E3E4FF'
+                  : '#828aa1',
               padding: '12px 0 12px',
             }}
           >
@@ -157,15 +167,17 @@ export default function Index({ smallScreen }) {
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: activeKeyStr === 'fills' ? '2px solid #56DCD7' : '',
+              borderBottom: activeKeyStr === 'fills' ? '1px solid #72d4b9' : '',
+              borderImage:	'linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1',
+              textTransform: 'uppercase',
               background: 'transparent',
-              fontSize: 14,
+              fontSize: 13,
               fontStyle: 'normal',
               fontWeight: 600,
               color:
                 activeKeyStr === 'fills'
-                  ? '##E3E4FF'
-                  : 'rgba(241, 241, 242, 0.5)',
+                  ? '#E3E4FF'
+                  : '#828aa1',
               padding: '12px 0 12px',
             }}
           >
@@ -180,15 +192,17 @@ export default function Index({ smallScreen }) {
               textAlign: 'center',
               border: 'transparent',
               borderBottom:
-                activeKeyStr === 'balances' ? '2px solid #56DCD7' : '',
+                activeKeyStr === 'balances' ? '1px solid #72d4b9' : '',
+              borderImage:	'linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1',
+              textTransform: 'uppercase',
               background: 'transparent',
-              fontSize: 14,
+              fontSize: 13,
               fontStyle: 'normal',
               fontWeight: 600,
               color:
                 activeKeyStr === 'balances'
-                  ? '##E3E4FF'
-                  : 'rgba(241, 241, 242, 0.5)',
+                  ? '#E3E4FF'
+                  : '#828aa1',
               padding: '12px 0 12px',
             }}
           >
@@ -204,15 +218,17 @@ export default function Index({ smallScreen }) {
                 textAlign: 'center',
                 border: 'transparent',
                 borderBottom:
-                  activeKeyStr === 'fees' ? '2px solid #56DCD7' : '',
+                  activeKeyStr === 'fees' ? '1px solid #72d4b9' : '',
+                borderImage:	'linear-gradient(90deg, #d3eaed 0%, #e2cdf7 30%, #86a2db 100%) 1',
+                textTransform: 'uppercase',
                 background: 'transparent',
-                fontSize: 14,
+                fontSize: 13,
                 fontStyle: 'normal',
                 fontWeight: 600,
                 color:
                   activeKeyStr === 'fees'
-                    ? '##E3E4FF'
-                    : 'rgba(241, 241, 242, 0.5)',
+                    ? '#E3E4FF'
+                    : '#828aa1',
                 padding: '12px 0 12px',
               }}
             >

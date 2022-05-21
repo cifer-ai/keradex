@@ -29,9 +29,95 @@ const LogoWrapper = styled.div`
 `;
 
 const MENU = [
-   {
+  {
     'title': 'TRADE',
     'link': '/',
+    'child': [
+      {
+        'title':'KRM',
+        'link': '/market/Ba3tsRSip58gUmpmFtX7RThp9cBZp2CspcT4HPvMDftq'
+      },
+      {
+        'title':'SOL',
+        'link': '/market/9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT'
+      },
+      {
+        'title':'SRM',
+        'link': '/market/ByRys5tuUWDgL73G8JBAEfkdFf8JWBzPBDHsBVQ5vbQA'
+      },
+      {
+        'title':'FIDA',
+        'link': '/market/E14BKBhDWD4EuTkWj1ooZezesGxMW8LPCps4W5PuzZJo'
+      },
+      {
+        'title':'MNGO',
+        'link': '/market/3d4rzwpy9iGdCZvgxcu7B1YocYffVLsQXPXkBZKt2zLc'
+      },
+      {
+        'title':'RAY',
+        'link': '/market/2xiv8A5xrJ7RnGdxXB42uFEkYHJjszEhaJyKKt4WaLep'
+      },
+      {
+        'title':'DXL',
+        'link': '/market/DYfigimKWc5VhavR4moPBibx9sMcWYVSjVdWvPztBPTa'
+      },
+      {
+        'title':'TULIP',
+        'link': '/market/8GufnKq7YnXKhnB3WNhgy5PzU9uvHbaaRrZWQK6ixPxW'
+      },
+      {
+        'title':'BTC',
+        'link': '/market/A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw'
+      },
+      {
+        'title':'ETH',
+        'link': '/market/4tSvZvnbyzHXLMTiFonMyxZoHmFqau1XArcRCVHLZ5gX'
+      },
+      {
+        'title':'BNB',
+        'link': '/market/3zzTxtDCt9PimwzGrgWJEbxZfSLetDMkdYegPanGNpMf'
+      },
+      {
+        'title':'LUNA',
+        'link': '/market/HBTu8hNaoT3VyiSSzJYa8jwt9sDGKtJviSwFa11iXdmE'
+      },
+      {
+        'title':'FTT',
+        'link': '/market/2Pbh1CvRVku1TgewMfycemghf6sU9EyuFDcNXqvRmSxc'
+      },
+      {
+        'title':'USDT',
+        'link': '/market/Ec1aq54XKH9o5fe169cU2sCcxxTP54eeQCe77SpizKuc'
+      },
+      {
+        'title':'MANA',
+        'link': '/market/7GSn6KQRasgPQCHwCbuDjDCsyZ3cxVHKWFmBXzJUUW8P'
+      },
+      {
+        'title':'SAND',
+        'link': '/market/3FE2g3cadTJjN3C7gNRavwnv7Yh9Midq7h9KgTVUE7tR'
+      },
+      {
+        'title':'AXSet',
+        'link': '/market/HZCheduA4nsSuQpVww1TiyKZpXSAitqaXxjBD2ymg22X'
+      },
+      {
+        'title':'CHICKS',
+        'link': '/market/Eg8a9ZicLPSyak4CiXfiMeJK6jmHq57Xx5ag5GY6vcDj'
+      },
+      {
+        'title':'SUSHI',
+        'link': '/market/A1Q9iJDVVS8Wsswr9ajeZugmj64bQVCYLZQLra2TMBMo'
+      },
+      {
+        'title':'UNI',
+        'link': '/market/B7b5rjQuqQCuGqmUBWmcCTqaL3Z1462mo4NArqty6QFR'
+      },
+      {
+        'title':'SHIB',
+        'link': '/market/Er7Jp4PADPVHifykFwbVoHdkL1RtZSsx9zGJrPJTrCgW'
+      },
+    ]
   },
   {
     'title': 'SWAP',
@@ -141,7 +227,7 @@ export default function TopBar() {
     const { SubMenu } = Menu;
 
   const menuDiv = 
-  <Menu mode="horizontal" defaultSelectedKeys={['Trading']} style={{fontSize: '16px', display: 'flex', justifyContent: 'center',background: '#1D1E21'}} selectable={false} >
+  <Menu mode="horizontal" defaultSelectedKeys={['Trading']} style={{fontSize: '16px', display: 'flex', justifyContent: 'center',background: '#25262b'}} selectable={false} >
     {MENU.map(item => {
       if (item.child === undefined) {
         return <Menu.Item key={item.title}><a href={item.link} target={item.link.startsWith('/') ? '_self' : '_blank'} rel="noopener noreferrer">{item.title}</a></Menu.Item>
@@ -162,11 +248,11 @@ export default function TopBar() {
         onAddCustomEndpoint={onAddCustomEndpoint}
         onClose={() => setAddEndpointVisible(false)}
       />
-      <Wrapper style={{ background: '#1D1E21'}}>
-        <Row wrap={false} style={{ paddingTop: 25, height: 70 }}>
+      <Wrapper style={{ background: '#25262b'}}>
+        <Row wrap={false} style={{ paddingTop: 25, height: 80 }}>
           <Col flex="none">
             <LogoWrapper onClick={() => window.open('https://keramos.tech/')} style={{ paddingLeft: 40}}>
-              <img src={logo} alt="" style={{ width: 145, height: 40 }} />
+              <img src={logo} alt="" style={{ width: 145, height: 40, marginTop: 8 }} />
             </LogoWrapper>
           </Col>
           <Col flex="auto" style={{ textAlign: 'center'}}>

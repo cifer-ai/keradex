@@ -27,7 +27,7 @@ export default function DeprecatedMarketsInstructions({ switchToLiveMarkets }) {
   const needToSettleFunds = filteredBalances && filteredBalances.length > 0;
   return (
     <FloatingElement>
-      <Title level={4} style={{ color: 'rgba(255, 255, 255, 1)' }}>
+      <Title level={4} style={{ color: 'rgba(227, 228, 255, 1)' }}>
         Migrate to new USDC markets
       </Title>
       <Typography>

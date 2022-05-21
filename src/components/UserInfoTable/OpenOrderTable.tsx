@@ -9,7 +9,7 @@ import { notify } from '../../utils/notifications';
 import { OrderWithMarketAndMarketName } from '../../utils/types';
 
 const CancelButton = styled(Button)`
-  color: rgba(241, 241, 242, 1);
+  color: #E3E4FF;
   // border: 1px solid rgba(194, 0, 251, 0.1);
   border: 1px solid #C200FB;
   border-radius: 4px;
@@ -72,7 +72,7 @@ export default function OpenOrderTable({
   return (
     <Row>
       <Col span={24}>
-        <Row style={{ fontSize: 14, color: 'rgba(241, 241, 242, 0.5)', paddingBottom: 16 }}>
+        <Row style={{ fontSize: 13, color: '#828aa1', paddingBottom: 16 }}>
           <Col span={5} style={{ textAlign: 'left' }}>Market</Col>
           <Col span={5} style={{ textAlign: 'right' }}>Side</Col>
           <Col span={5} style={{ textAlign: 'right' }}>Size</Col>
@@ -81,7 +81,7 @@ export default function OpenOrderTable({
         </Row>
         <div style={{ height: 350, overflowX: 'hidden' }}>
           {dataSource.map(({marketName, side, size, price, orderId }, i) => (
-            <Row key={i} style={{ fontSize: 14, color: 'rgba(241, 241, 242, 1)', paddingBottom: 16 }}>
+            <Row key={i} style={{ fontSize: 14, color: '#E3E4FF', paddingBottom: 16 }}>
               <Col span={5} style={{ textAlign: 'left' }}>{marketName}</Col>
               <Col span={5} style={{ textAlign: 'right', color: 'rgba(90, 196, 190, 1)' }}>{side}</Col>
               <Col span={5} style={{ textAlign: 'right', color: 'rgba(90, 196, 190, 1)' }}>{size}</Col>

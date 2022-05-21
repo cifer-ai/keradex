@@ -45,7 +45,7 @@ export default function StandaloneTokenAccountsSelect({
 
   return (
     <React.Fragment>
-      {label && <Col span={8}>Token account:</Col>}
+      {label && <Col span={8} style={{ color: '#828aa1', fontSize: 11, lineHeight: '11px', fontWeight: 600}}>Token account:</Col>}
       <Col span={label ? 13 : 21}>
         <Select
           style={{ width: '100%' }}

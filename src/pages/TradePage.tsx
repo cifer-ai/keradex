@@ -181,13 +181,13 @@ function TradePageInner() {
                 title="Market address"
                 trigger="click"
               >
-                <InfoCircleOutlined style={{ color: '#56DCD7' }} />
+                <InfoCircleOutlined style={{ color: '#72d4b9' }} />
               </Popover>
             </Col>
           ) : null}
           <Col>
             <PlusCircleOutlined
-              style={{ color: '#56DCD7' }}
+              style={{ color: '#72d4b9' }}
               onClick={() => setAddMarketVisible(true)}
             />
           </Col>
@@ -251,7 +251,7 @@ function MarketSelector({
       showSearch
       size={'large'}
       bordered={false}
-      style={{ width: 360, border: 1 }}
+      style={{ width: 264, border: 1 }}
       placeholder={placeholder || 'Select a market'}
       optionFilterProp="name"
       onSelect={onSetMarketAddress}
@@ -271,7 +271,7 @@ function MarketSelector({
               style={{
                 padding: '10px',
                 // @ts-ignore
-                backgroundColor: i % 2 === 0 ? 'rgb(39, 44, 61)' : null,
+                backgroundColor: i % 2 === 0 ? '#25262b' : null,
               }}
             >
               <Row>
@@ -302,9 +302,10 @@ function MarketSelector({
               style={{
                 padding: '10px',
                 // @ts-ignore
-                backgroundColor: i % 2 === 0 ? 'rgb(39, 44, 61)' : null,
+                backgroundColor: i % 2 === 0 ? '#25262b' : null,
               }}
             >
+              <div id="TK" className={address.toBase58()}></div>
               {name} {deprecated ? ' (Deprecated)' : null}
             </Option>
           ))}

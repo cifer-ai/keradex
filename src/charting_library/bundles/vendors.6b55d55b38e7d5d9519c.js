@@ -479,10 +479,10 @@
                       red: '#ff0000',
                       silver: '#c0c0c0',
                       teal: '#008080',
-                      white: '#ffffff',
+                      white: '#E3E4FF',
                       yellow: '#ffff00',
                       transparent: [null, null, null, 0],
-                      _default: '#ffffff',
+                      _default: '#E3E4FF',
                     });
                 })(n),
                 (function () {
