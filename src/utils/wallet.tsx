@@ -15,9 +15,10 @@ import {
   WalletAdapter,
   /*LedgerWalletAdapter,*/
   PhantomWalletAdapter,
+  SolflareExtensionWalletAdapter,
   /*SolletExtensionAdapter,
   MathWalletAdapter,
-  SolflareExtensionWalletAdapter,*/
+  */
 } from '../wallet-adapters';
 
 const ASSET_URL =
@@ -45,17 +46,18 @@ export const WALLET_PROVIDERS = [
     url: 'https://solflare.com/access-wallet',
     icon: `${ASSET_URL}/solflare.svg`,
   },
-  {
-    name: 'Solflare Extension',
-    url: 'https://solflare.com',
-    icon: `${ASSET_URL}/solflare.svg`,
-    adapter: SolflareExtensionWalletAdapter,
-  },*/
+  */
   {
     name: 'Phantom',
     url: 'https://www.phantom.app',
     icon: `https://www.phantom.app/img/logo.png`,
     adapter: PhantomWalletAdapter,
+  },
+  {
+    name: 'Solflare Extension',
+    url: 'https://solflare.com',
+    icon: `${ASSET_URL}/solflare.svg`,
+    adapter: SolflareExtensionWalletAdapter,
   },
   /*{
     name: 'MathWallet',

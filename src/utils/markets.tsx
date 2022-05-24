@@ -636,7 +636,7 @@ export function MarketProvider({ marketAddress, setMarketAddress, children }) {
         console.log('Switching markets from deprecated', marketInfo);
         if (DEFAULT_MARKET) {
           // setMarketAddress(DEFAULT_MARKET.address.toBase58());
-          setMarketAddress('2xiv8A5xrJ7RnGdxXB42uFEkYHJjszEhaJyKKt4WaLep');
+          setMarketAddress('9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT');
         }
       }
     }
@@ -701,7 +701,7 @@ export function getTradePageUrl(marketAddress?: string) {
     marketAddress =
       marketAddress ||
       DEFAULT_MARKET?.address.toBase58() ||
-      '2xiv8A5xrJ7RnGdxXB42uFEkYHJjszEhaJyKKt4WaLep';
+      '9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT';
   }
   return `/market/${marketAddress}`;
 }

@@ -17,7 +17,8 @@ input[type=number]:focus::-webkit-inner-spin-button {
 }
 /* width */
 ::-webkit-scrollbar {
-  width: 8px;
+  background-color: transparent;
+  width: 10px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
@@ -25,13 +26,28 @@ input[type=number]:focus::-webkit-inner-spin-button {
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #6D80D6;
-  border: 2px solid #25262B;
+  background-color: #38394A;
+  border-radius: 0px;
+  border: 2px solid #25262b;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #6D80D6;
+  background: #414358;
 }
+
+.rc-virtual-list-scrollbar {
+  width: 8px;
+  border-radius: 0px;
+}
+.rc-virtual-list-scrollbar-track {
+  background: #212226;
+}
+.rc-virtual-list-scrollbar-thumb {
+  background-color: #38394A;
+  border-radius: 0;
+  border: 4px solid #38394A;
+}
+
 .ant-slider-track, .ant-slider:hover .ant-slider-track {
   background-color: #72d4b9;
   opacity: 0.75;
