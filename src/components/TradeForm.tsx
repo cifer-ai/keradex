@@ -368,7 +368,7 @@ export default function TradeForm({
             {/* <Select.Option value="Market Order">Market Order</Select.Option> */}
           </Select>
           <div style={{ marginTop: 25}}>
-          <div style={{ textAlign: 'left', paddingBottom: 8, paddingLeft: 11, fontSize: 12, }}>Limit price</div>
+            <div style={{ textAlign: 'left', paddingBottom: 8, paddingLeft: 11, fontSize: 12, }}>Limit price</div>
             <Input
               type="number"
               bordered={false}
@@ -383,7 +383,7 @@ export default function TradeForm({
           </div>
 
           <div style={{ marginTop: 25}}>
-          <div style={{ textAlign: 'left', paddingBottom: 8, paddingLeft: 11, fontSize: 12, }}>Amount</div>
+            <div style={{ textAlign: 'left', paddingBottom: 8, paddingLeft: 11, fontSize: 12, }}>Amount</div>
             <Input
               type="number"
               bordered={false}
@@ -398,7 +398,7 @@ export default function TradeForm({
           </div>
 
           <div style={{ marginTop: 25}}>
-          <div style={{ textAlign: 'left', paddingBottom: 8, paddingLeft: 11, fontSize: 12, }}>Total</div>
+            <div style={{ textAlign: 'left', paddingBottom: 8, paddingLeft: 11, fontSize: 12, }}>Total</div>
             <Input
               type="number"
               bordered={false}

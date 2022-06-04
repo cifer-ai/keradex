@@ -1020,7 +1020,7 @@
                                     gray: 'rgb(128, 128, 128)',
                                     green: 'rgb(0, 128, 0)',
                                     red: 'rgb(255, 0, 0)',
-                                    white: 'rgb(255, 255, 255)',
+                                    white: 'rgb(227, 228, 255)',
                                   };
                                 /^[A-z]+$/i.test(a)
                                   ? (o = void 0 !== s[a] ? s[a] : s.black)

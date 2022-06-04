@@ -19,17 +19,16 @@ const Wrapper = styled.div`
 const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
-  color: #56DCD7;
+  color: #a4aaf5;
   font-weight: bold;
   cursor: pointer;
   img {
-    height: 30px;
-    margin-right: 8px;
+    height: 3rem;
   }
 `;
 
 const MENU = [
-  {
+   {
     'title': 'TRADE',
     'link': '/',
     'child': [
@@ -121,19 +120,19 @@ const MENU = [
   },
   {
     'title': 'SWAP',
-    'link': '/',
-  },
-  {
-    'title': 'FARMS',
-    'link': '/',
+    'link': 'https://app.keramos.tech/swap',
   },
   {
     'title': 'POOLS',
-    'link': '/',
+    'link': 'https://app.keramos.tech/pools',
   },
   {
-    'title': 'LIQUIDITY',
-    'link': '/',
+    'title': 'FARMS',
+    'link': 'https://app.keramos.tech/farms',
+  },
+  {
+    'title': 'ADD LIQUIDITY',
+    'link': 'https://app.keramos.tech/liquidity/add',
   },
   {
     'title': 'INFO',
@@ -251,14 +250,14 @@ export default function TopBar() {
       <Wrapper style={{ background: '#25262b'}}>
         <Row wrap={false} style={{ paddingTop: 25, height: 80 }}>
           <Col flex="none">
-            <LogoWrapper onClick={() => window.open('https://keramos.tech/')} style={{ paddingLeft: 40}}>
-              <img src={logo} alt="" style={{ width: 145, height: 40, marginTop: 8 }} />
+            <LogoWrapper onClick={() => window.open('https://keramos.tech/')} style={{ paddingLeft: '2rem'}}>
+              <img src={logo} alt="" style={{ marginTop: 10 }} />
             </LogoWrapper>
           </Col>
-          <Col flex="auto" style={{ textAlign: 'center'}}>
+          <Col flex="auto" style={{ textAlign: 'center', marginTop: '-1px'}}>
             {menuDiv}
           </Col>
-          <Col flex="none" style={{ paddingRight: 20}}>
+          <Col flex="none" style={{ paddingRight: '2rem', marginTop: '-0.2rem'}}>
             <WalletConnect />
           </Col>
         </Row>

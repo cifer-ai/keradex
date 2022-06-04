@@ -170,12 +170,12 @@ input[type=number]:focus::-webkit-inner-spin-button {
 }
 .ant-menu-horizontal > .ant-menu-item a {
   color: #a5adc7;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 10px;
 }
 .ant-menu-title-content {
   color: #a5adc7;
-  font-size: 14px;
+  font-size: 13px;
 }
 .ant-menu-horizontal > .ant-menu-item a:hover {
   color: #E3E4FF;
