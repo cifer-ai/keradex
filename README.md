@@ -1,6 +1,6 @@
-# Serum DEX UI
+# KERAMOS Technology: Decentralized Finance Multi-Strategy Platform on Solana with Serum DEX 
 
-An implementation of a UI for the Serum DEX.
+KERAMOS Technology provides a state-of-the-art Decentralized Finance (DeFi) platform focusing on Automated High Frequency Swaps and Yield Aggregation. As an integral part of our offering, we present an implementation of a UI for the Serum DEX, allowing users to experience seamless trading on the Solana network.
 
 ### Running the UI
 
@@ -16,7 +16,7 @@ You may want to put these in local environment files (e.g. `.env.development.loc
 
 NOTE: remember to re-build your app before deploying for your referral addresses to be reflected.
 
-### Add Trading View charts
+### Integrate TradingView Charts
 
 It is possible to add OHLCV candles built from on chain data using [Bonfida's API](https://docs.bonfida.com). Here is how to do it:
 
